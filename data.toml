@@ -7,37 +7,37 @@ name = "Balance"
 [schemes.balance.isocolon]
 name = "Isocolon"
 description = "A series of similarly structured elements having the same length."
-quote = "Want some, get some"
+wikipedia = "Want some, get some"
 example = ""
 
 [schemes.balance.tricolon]
 name = "Tricolon"
 description = "Three parallel elements of the same length occuring together."
-quote = "I came, I saw, I conquered --Caesar"
+wikipedia = "I came, I saw, I conquered --Caesar"
 example = ""
 
 [schemes.balance.parallelism]
 name = "Parallelism"
 description = "Similarity of structure in a pair or series of related wordds, phrases, or clauses."
-quote = "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. --proverb"
+wikipedia = "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. --proverb"
 example = ""
 
 [schemes.balance.climax]
 name = "Climax"
 description = "Generally, the arrangement of words, phrases, or clauses in an order of increasing importance, often in parallel structure."
-quote = "...O'erthrows thy joys, friends, fortune and thy state --William Shakespeare from Richard II"
+wikipedia = "...O'erthrows thy joys, friends, fortune and thy state --William Shakespeare from Richard II"
 example = ""
 
 [schemes.balance.bathos]
 name = "Bathos or anti-climax"
 description = "The least important items appears either anticlimatically or unexpectedly."
-quote = "Die and endow a college or a cat."
+wikipedia = "Die and endow a college or a cat."
 example = ""
 
 [schemes.balance.antithesis]
 name = "Antithesis"
 description = "Juxtaposition of contrasting ideas (often in parallel structure)."
-quote = [
+wikipedia = [
 "Man proposes, God disposes.",
 "I came not to bring peace but a sword. --St Matthew's Gospel, 10:34"
 ]
@@ -46,7 +46,7 @@ example = ""
 [schemes.balance.chiasmus]
 name = "Chiasmus"
 description = "Repetition of grammatical structures in reverse order in successive phrases or clauses (not to be mistaken with antimetabole)."
-quote = [
+wikipedia = [
 "By day the frolic, and the dance by night. --Samuel Johnson, The Vanity of Human Wishes (1794)",
 "Despised, if ugly; if she's fair, betrayed. -- Mary Leapor, Essay on Woman"
 ]
@@ -55,7 +55,7 @@ example = ""
 [schemes.balance.alliosis]
 name = "Alliosis"
 description = "A presentation of alternatives, such as a dichotomy."
-quote = ""
+wikipedia = ""
 example = ""
 
 [schemes.changes]
@@ -63,38 +63,57 @@ name = "Changes"
 
 [schemes.changes.anastrophe]
 name = "Anastrophe"
+similar_to = "Hyperbaton"
 description = "Inversion of natural order, such as switching adjective and noun."
-quote = ""
+wikipedia = "Powerful you have become, the dark side I sense in you. --Star Wars"
 example = ""
 
 [schemes.changes.parenthesis]
 name = "Parenthesis"
 description = "Insertion of a verbal unit that interrupts normal syntactical flow."
-quote = ""
+wikipedia = [
+"Billy-bob, a great singer, was not a good dancer.",
+"A dog (not a cat) is an animal that barks.",
+"My umbrella (which is somewhat broken) can still shield the two of us from the rain.",
+"Please, Gerald, come here!"
+]
 example = ""
 
 [schemes.changes.hyperbaton]
 name = "Hyperbaton"
+similar_to = "Anastrophe"
 description = "Pushing or pulling a word where it is not expected."
-quote = ""
+wikipedia = [
+"Object there was none. Passion there was none. --Edgar Allan Poe, The Tell-Tale Heart",
+"Bloody thou art; bloody will be thy end --William Shakespeare in Richard III, 4.4, 198",
+"Backward ran sentences until reeled the mind. --Wolcott Gibbs's 1936 parody of Time magazine"
+]
 example = ""
 
 [schemes.changes.metaplasmus]
 name = "Metaplasmus"
 description = "Misspelling a word."
-quote = ""
+wikipedia = ""
 example = ""
 
 [schemes.changes.enallage]
 name = "Enallage"
 description = "Intentionally misuse grammar."
-quote = ""
+wikipedia = [
+"Is there not wars? Is there not employment? --2nd Henry IV, I, ii",
+"The idols are broke in the temple of Baal. --Byron"
+]
 example = ""
 
-[schemes.changes.tsmesis]
-name = "Tsmesis"
+[schemes.changes.tmesis]
+name = "Tmesis"
 description = "Splitting a word in two with a word or space."
-quote = ""
+wikipedia = [
+"a-whole-nother kettle of fish",
+"un-*****-believable",
+"Turn off the light --> Turn the light off",
+"Come back tomorrow --> Come on back tomorrow"
+]
 example = ""
 
 [schemes.omission]
@@ -103,25 +122,45 @@ name = "Omission"
 [schemes.omission.ellipsis]
 name = "Ellipsis"
 description = "Omission of a word or words readily implied by context."
-quote = ""
+wikipedia = ""
 example = ""
 
-[schemes.omission.brachylogia]
-name = "Brachylogia"
-description = "Omission of conjuctions between a series of words."
-quote = ""
+[schemes.omission.aposiopesis]
+name = "Aposiopesis"
+description = "Breaking off as if unable to continue."
+wikipedia = [
+"Get out, or else...!",
+"You whom, I...! But it is better to settle the agitated waves."
+]
+example = ""
+
+[schemes.omission.anapodoton]
+name = "Anapodoton"
+description = "Breaking off a sentence in order to let the reader reach the implication itself."
+wikipedia = [
+"If you think I'm going to sit here and take your insults...",
+"When life gives you lemons...",
+"If they came to hear me beg...",
+"When the going gets tough...",
+"If you can’t stand the heat..."
+]
 example = ""
 
 [schemes.omission.asyndeton]
 name = "Asyndeton"
 description = "Omission of conjunction between a series of clauses to create speed and brevity."
-quote = ""
+wikipedia = [
+"Quickly, resolutely, he strode into the bank.",
+"...and that government of the people, by the people, for the people shall not perish from the earth. --Abraham Lincoln, Gettysburg Address",
+"A parson or what looked like one was laboring over the crest of the hill and coming toward them with one hand raised in blessing, greeting, fending flies. --Cormac McCarthy, Outer Dark, 1968"
+]
 example = ""
 
-[schemes.omission.polysyndeton]
-name = "Polysyndeton"
-description = "Opposite of asyndeton, a superabundance of conjuctions meant to overwhelm."
-quote = ""
+[schemes.omission.brachylogia]
+name = "Brachylogia"
+description = "Omission of conjuctions between a series of words."
+wikipedia = ""
+silva_rhetoricae = "Phillip! Rise! Eat! Leave!"
 example = ""
 
 [schemes.repetition]
@@ -133,52 +172,71 @@ name = "Words"
 [schemes.repetition.words.polyptoton]
 name = "Polyptoton"
 description = "Repetition of words derived from the same root."
-quote = ""
+wikipedia = [
+"Judge not, that ye be not judged --Matthew 7:1",
+"Absolute power corrupts absolutely. --Lord Acton",
+"Who shall watch the watchmen themselves? --Juvenal"
+]
 example = ""
 
 [schemes.repetition.words.antanaclasis]
 name = "Antanaclasis"
+similar_to = "Paranomasia (pun)"
 description = "Repetition of a word in two different senses."
-quote = ""
+wikipedia = [
+"Your argument is sound, nothing but sound. --Benjamin Franklin",
+"Time flies like an arrow; fruit flies like a banana",
+"We must, indeed, all hang together, or assuredly we shall all hang separately --Various"
+]
 example = ""
 
 [schemes.repetition.words.anaphora]
 name = "Anaphora"
 description = "Repetition of the same word or group of words at the beginning of successive clauses."
-quote = ""
+wikipedia = [
+"For want of a nail the shoe was lost. For want of a shoe the horse was lost. For want of a horse the rider was lost. [...]",
+"Mad world! Mad kings! Mad composition! --William Shakespeare, King John, II, i",
+"The voice of the Lord flashes forth flames of fire. The voice of the Lord shakes the wilderness; the Lord shakes the wilderness of Kadesh. --Psalm 29:3–9"
+]
 example = ""
 
 [schemes.repetition.words.epistrophe]
 name = "Epistrophe"
 description = "Repetition of the same word of group of words at the ends of successive clauses."
-quote = ""
+wikipedia = ""
 example = ""
 
 [schemes.repetition.words.epanalepsis]
 name = "Epanalepsis"
 description = "Repetition at the end of a clause of the word that occured at the beginning of the clause."
-quote = ""
+wikipedia = ""
 example = ""
 
 [schemes.repetition.words.anadiplosis]
 name = "Anadiplosis"
 description = "Repetition of the last word of one clause at the beginning of the following clause."
-quote = ""
+wikipedia = ""
 example = ""
 
 [schemes.repetition.words.climax]
 name = "Climax"
 description = "Repetition of the scheme anadiplosis at least three times, with the elements arranged in an order of increasing importance."
-quote = ""
+wikipedia = ""
 example = ""
 
 [schemes.repetition.words.antimetabole]
 name = "Antimetabole"
 description = "Repetition of words, in successive clauses, in reverse grammatical order. Sometimes mistaken as chiasmus."
-quote = [
+wikipedia = [
 "In peace you long for war, and in war you long for peace.",
 "Pleasure's a sin, and sometimes sin's a pleasure."
 ]
+example = ""
+
+[schemes.repetition.words.polysyndeton]
+name = "Polysyndeton"
+description = "Opposite of asyndeton, a superabundance of conjuctions meant to overwhelm."
+wikipedia = ""
 example = ""
 
 [schemes.repetition.sounds]
@@ -187,13 +245,13 @@ name = "Sounds"
 [schemes.repetition.sounds.alliteration]
 name = "Alliteration"
 description = "Repetition of initial or medial consonants in two or more adjacent words."
-quote = ""
+wikipedia = ""
 example = ""
 
 [schemes.repetition.sounds.assonance]
 name = "Assonance"
 description = "Repetition of similar vowel sounds, preceded and followed by different consonants, in the stressed syllable of adjacent words."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes]
@@ -205,37 +263,43 @@ name = "Reference"
 [tropes.reference.apostrophe]
 name = "Apostrophe"
 description = "Addressing someone or some abstraction that is not physically present."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.reference.personification]
 name = "Personification"
 description = "Reference to abstractions or inanimate objects as though they had human qualities or abilities."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.reference.synecdoche]
 name = "Synecdoche"
 description = "A whole is represented by naming one of its parts."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.reference.metaphor]
 name = "Metaphor"
 description = "Reference to one thing as another, treating them as if the same and implying a comparison."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.reference.simile]
 name = "Simile"
 description = "Explicit comparison of one thing to another (analogy)."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.reference.metonymy]
 name = "Metonymy"
 description = "Reference to something or someone by naming one of its attributes."
-quote = ""
+wikipedia = ""
+example = ""
+
+[tropes.reference.allusion]
+name = "Allusion"
+description = "Reference to semething covertly or indirectly."
+wikipedia = ""
 example = ""
 
 [tropes.wordplay]
@@ -244,24 +308,120 @@ name = "Wordplay"
 [tropes.wordplay.antanaclasis]
 name = "Antanaclasis"
 description = "Repetition of a word in two different senses"
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.wordplay.paranomasia]
 name = "Paranomasia (pun)"
 description = "Using words that sound alike but that differ in meaning, a pun."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.wordplay.syllepsis]
 name = "Syllepsis"
 description = "Using a word differently un relation to two or more words that it modifies or governs (sometimes called zeugma)."
-quote = ""
+wikipedia = ""
 example = ""
 
 [tropes.wordplay.onomatopoeia]
 name = "Onomatopoeia"
 description = "Use of words whose sound correspond with their semantic value."
-quote = ""
+wikipedia = ""
 example = ""
+
+[tropes.substitutions]
+name = "Substitutions"
+
+[tropes.substitutions.synaesthesia]
+name = "Synaesthesia"
+description = "Mixing one sensory input for another, such as smelling a color."
+wikipedia = ""
+example = ""
+
+[tropes.substitutions.periphrasis]
+name = "Periphrasis"
+description = "Substitution of a descriptive word or phrase for a proper name or of a proper name for a quality associated with the name."
+wikipedia = ""
+example = ""
+
+[tropes.substitutions.anthimeria]
+name = "Anthimeria"
+description = "Substitution of one part of speech for another (such as a noun for a verb)."
+wikipedia = ""
+example = ""
+
+[tropes.statement]
+name = "Statement"
+
+[tropes.statement.overstatement]
+name = "Overstatement"
+
+[tropes.statement.overstatement.hyperbole]
+name = "Hyperbole"
+description = "Use of exaggerated terms for emphasis or effect."
+wikipedia = ""
+example = ""
+
+[tropes.statement.overstatement.auxesis]
+name = "Auxesis"
+description = "Reference to something with a name disproportionately greater than its nature (a kind of hyperbole)."
+wikipedia = ""
+example = ""
+
+[tropes.statement.understatement]
+name = "Understatement"
+
+[tropes.statement.understatement.litotes]
+name = "Litotes"
+description = "Understatemtn use deliberately."
+wikipedia = ""
+example = ""
+
+[tropes.statement.understatement.meiosis]
+name = "Meiosis"
+description = "Reference to something with a name disproportionately lesser than its nature (a kind of litotes)."
+wikipedia = ""
+example = ""
+
+[tropes.inversion]
+name = "Inversion"
+
+[tropes.inversion.paradox]
+name = "Paradox"
+description = "An apparently contradictory statement that contains a measure of truth."
+wikipedia = ""
+example = ""
+
+[tropes.inversion.oxymoron]
+name = "Oxymoron"
+description = "Placing two ordinarily opposing terms adjacent to one another. A compressed paradox with a measure of truth."
+wikipedia = ""
+example = ""
+
+[tropes.inversion.rhetorical_question]
+name = "Rhetorical question"
+description = "Asking a question for a purpose other than obtaining the information requested."
+wikipedia = ""
+example = ""
+
+[tropes.inversion.irony]
+name = "Irony"
+description = "Using language in such a way to convey a different meaning of what the words mean literally (often by exaggeration)."
+
+[tropes.inversion.irony.sarcasm]
+name = "Ironic sarcasm"
+description = "Irony that is bitter or mocking, usually with a verbal cue. Sarcasm is sometimes not ironic."
+wikipedia = [
+"My you're early! (After one arrives extremely late).",
+"What a fine artist you've become! (When meaning to express displeasure)."
+]
+example = ""
+
+[tropes.inversion.irony.aporia]
+name = "Aporia"
+description = "Talking as if unable to continue."
+wikipedia = ""
+example = ""
+
+
 
