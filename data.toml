@@ -5,25 +5,18 @@ name = "Scheme"
 name = "Balance"
 
 [scheme.balance.isocolon]
-name = "Isocolon"
+name = "Isocolon (bicolon, tricolon, tetracolon)"
 similar_to = ""
 opposite_of = ""
-description = "A series of similarly structured elements having the same length."
-wikipedia = [
-"Want some, get some"
-]
-example = []
-silva_rhetoricae = []
-
-[scheme.balance.tricolon]
-name = "Tricolon"
-similar_to = ""
-opposite_of = ""
-description = "Three parallel elements of the same length occuring together."
+description = "A series of similarly structured elements having the same length, a series of two, three, four or more elements."
 wikipedia = [
 "I came, I saw, I conquered --Caesar"
 ]
-example = []
+example = [
+"Want some, get some",
+"Buy one, get one free",
+"Signed, sealed, and delivered"
+]
 silva_rhetoricae = []
 
 [scheme.balance.parallelism]
@@ -34,7 +27,9 @@ description = "Similarity of structure in a pair or series of related wordds, ph
 wikipedia = [
 "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. --proverb"
 ]
-example = []
+example = [
+"The fox lept over the dog, and the dog slept under the rug."
+]
 silva_rhetoricae = []
 
 [scheme.balance.climax]
@@ -45,7 +40,9 @@ description = "Generally, the arrangement of words, phrases, or clauses in an or
 wikipedia = [
 "...O'erthrows thy joys, friends, fortune and thy state --William Shakespeare from Richard II"
 ]
-example = []
+example = [
+"The fox lept over the mouse, the dog and the moose."
+]
 silva_rhetoricae = []
 
 [scheme.balance.bathos]
@@ -56,7 +53,9 @@ description = "The least important items appears either anticlimatically or unex
 wikipedia = [
 "Die and endow a college or a cat."
 ]
-example = []
+example = [
+"They stole the money from the registers, the gold in the vault, and the free pens by the exit."
+]
 silva_rhetoricae = []
 
 [scheme.balance.antithesis]
@@ -75,22 +74,16 @@ silva_rhetoricae = []
 name = "Chiasmus"
 similar_to = ""
 opposite_of = ""
-description = "Repetition of grammatical structures in reverse order in successive phrases or clauses (not to be mistaken with antimetabole)."
+description = "Repetition of grammatical structures in reverse order in successive phrases or clauses (not to be mistaken with antimetabole). The words themselves are not repeated."
 wikipedia = [
 "By day the frolic, and the dance by night. --Samuel Johnson, The Vanity of Human Wishes (1794)",
 "Despised, if ugly; if she's fair, betrayed. -- Mary Leapor, Essay on Woman"
 ]
 example = []
-silva_rhetoricae = []
-
-[scheme.balance.alliosis]
-name = "Alliosis"
-similar_to = ""
-opposite_of = ""
-description = "A presentation of alternatives, such as a dichotomy."
-wikipedia = []
-example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"But O, what damned minutes tells he o'er / Who dotes, yet doubts; suspects, yet strong loves. -Shakespeare, Othello 3.3",
+"It is boring to eat; to sleep is fulfilling"
+]
 
 [scheme.changes]
 name = "Changes"
@@ -103,12 +96,20 @@ description = "Inversion of natural order, such as switching adjective and noun.
 wikipedia = [
 "Powerful you have become, the dark side I sense in you. --Star Wars"
 ]
-example = []
-silva_rhetoricae = []
+example = [
+"The quick fox jumps over the dog brown and lazy.",
+"For breakfast I ate the apple sweet."
+]
+silva_rhetoricae = [
+"Glistens the dew upon the morning grass. (Normally: The dew glistens upon the morning grass)",
+"She looked at the sky dark and menacing. (Normally: She looked at the dark and menacing sky)",
+"Troubles, everybody's got. (Normally: Everybody's got troubles)",
+"It only stands / Our lives upon, to use Our strongest hands --Shakespeare, Antony and Cleopatra 2.1.50-51"
+]
 
 [scheme.changes.parenthesis]
 name = "Parenthesis"
-similar_to = ""
+similar_to = "Tmesis"
 opposite_of = ""
 description = "Insertion of a verbal unit that interrupts normal syntactical flow."
 wikipedia = [
@@ -117,7 +118,9 @@ wikipedia = [
 "My umbrella (which is somewhat broken) can still shield the two of us from the rain.",
 "Please, Gerald, come here!"
 ]
-example = []
+example = [
+"The fox (the quick one) jumped over the lazy dog."
+]
 silva_rhetoricae = []
 
 [scheme.changes.hyperbaton]
@@ -131,16 +134,9 @@ wikipedia = [
 "Backward ran sentences until reeled the mind. --Wolcott Gibbs's 1936 parody of Time magazine"
 ]
 example = []
-silva_rhetoricae = []
-
-[scheme.changes.metaplasmus]
-name = "Metaplasmus"
-similar_to = ""
-opposite_of = ""
-description = "Misspelling a word."
-wikipedia = []
-example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"Adriana asks regarding men in Shakespeare's Comedy of Errors: Why should their liberty than ours be more?"
+]
 
 [scheme.changes.enallage]
 name = "Enallage"
@@ -156,7 +152,7 @@ silva_rhetoricae = []
 
 [scheme.changes.tmesis]
 name = "Tmesis"
-similar_to = ""
+similar_to = "Parenthesis"
 opposite_of = ""
 description = "Splitting a word in two with a word or space."
 wikipedia = [
@@ -166,7 +162,11 @@ wikipedia = [
 "Come back tomorrow --> Come on back tomorrow"
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"This is the place where Christ will come, as will here appear after.",
+"He shall be punished, what man soever offendeth.",
+"If on the first, how heinous e'er it be, To win thy after-love I pardon thee. --Shakespeare, Richard II 5.3.34-35"
+]
 
 [scheme.omission]
 name = "Omission"
@@ -178,23 +178,26 @@ opposite_of = ""
 description = "Omission of a word or words readily implied by context."
 wikipedia = []
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"The average person thinks he isn't. -–Father Larry Lorenzoni",
+"John forgives Mary and Mary, John."
+]
 
 [scheme.omission.aposiopesis]
 name = "Aposiopesis"
-similar_to = ""
+similar_to = "Anapodoton"
 opposite_of = ""
-description = "Breaking off as if unable to continue."
+description = "Breaking off as if unable to continue or overcome with emotion."
 wikipedia = [
 "Get out, or else...!",
 "You whom, I...! But it is better to settle the agitated waves."
 ]
-example = []
-silva_rhetoricae = []
+example = ["The quick fox jumped over the lazy dog and... I can't describe it."]
+silva_rhetoricae = ["O judgment! thou art fled to brutish beasts, / And men have lost their reason. Bear with me, / My heart is in the coffin there with Caesar, / And I must pause till it come back to me. --Shakespeare, Julius Caesar 3.2.104-107"]
 
 [scheme.omission.anapodoton]
 name = "Anapodoton"
-similar_to = ""
+similar_to = "Aposiopesis"
 opposite_of = ""
 description = "Breaking off a sentence in order to let the reader reach the implication itself."
 wikipedia = [
@@ -205,11 +208,14 @@ wikipedia = [
 "If you can’t stand the heat..."
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"If you think I'm going to sit here and take your insults...",
+"When you decide to promote me to manager—when you see more clearly what will benefit this corporation—I will be at your service."
+]
 
 [scheme.omission.asyndeton]
 name = "Asyndeton"
-similar_to = ""
+similar_to = "Brachylogia"
 opposite_of = ""
 description = "Omission of conjunction between a series of clauses to create speed and brevity."
 wikipedia = [
@@ -217,17 +223,24 @@ wikipedia = [
 "...and that government of the people, by the people, for the people shall not perish from the earth. --Abraham Lincoln, Gettysburg Address",
 "A parson or what looked like one was laboring over the crest of the hill and coming toward them with one hand raised in blessing, greeting, fending flies. --Cormac McCarthy, Outer Dark, 1968"
 ]
-example = []
+example = [
+"Quick, agile, graceful, the fox jumped over the dog."
+]
 silva_rhetoricae = []
 
 [scheme.omission.brachylogia]
 name = "Brachylogia"
-similar_to = ""
+similar_to = "Asyndeton"
 opposite_of = ""
-description = "Omission of conjuctions between a series of words."
+description = "Omission of conjunctions between a series of words to create a broken and hurried delivery."
 wikipedia = []
-example = []
-silva_rhetoricae = ["Phillip! Rise! Eat! Leave!"]
+example = [
+"The fox jumping over the dog was quick! Agile... Graceful!"
+]
+silva_rhetoricae = [
+"Phillip! Rise! Eat! Leave!",
+"Love, hate, jealousy, frenzy, fury drew him from pity --Angel Day"
+]
 
 [scheme.repetition_of_words]
 name = "Repetition of words"
@@ -242,12 +255,16 @@ wikipedia = [
 "Absolute power corrupts absolutely. --Lord Acton",
 "Who shall watch the watchmen themselves? --Juvenal"
 ]
-example = []
-silva_rhetoricae = []
+example = [
+"The fox jumped over the jumpy dog. "
+]
+silva_rhetoricae = [
+"With eager feeding food doth choke the feeder. --John of Gaunt in Shakespeare's Richard II 2.1.37"
+]
 
 [scheme.repetition_of_words.anaphora]
 name = "Anaphora"
-similar_to = ""
+similar_to = "Epistrophe"
 opposite_of = ""
 description = "Repetition of the same word or group of words at the beginning of successive clauses."
 wikipedia = [
@@ -255,12 +272,17 @@ wikipedia = [
 "Mad world! Mad kings! Mad composition! --William Shakespeare, King John, II, i",
 "The voice of the Lord flashes forth flames of fire. The voice of the Lord shakes the wilderness; the Lord shakes the wilderness of Kadesh. --Psalm 29:3–9"
 ]
-example = []
-silva_rhetoricae = []
+example = [
+"Today I ate breakfast, today I went to work, today I relaxed.",
+"Pizza in the morning, pizza at lunchtime, pizza at dinnertime."
+]
+silva_rhetoricae = [
+"This royal throne of kings, this sceptred isle, / This earth of majesty, this seat of Mars, / This other Eden, demi-paradise, --John of Gaunt in Shakespeare's Richard II (2.1.40-51; 57-60)"
+]
 
 [scheme.repetition_of_words.epistrophe]
 name = "Epistrophe"
-similar_to = ""
+similar_to = "Anaphora"
 opposite_of = ""
 description = "Repetition of the same word of group of words at the ends of successive clauses."
 wikipedia = [
@@ -268,8 +290,13 @@ wikipedia = [
 "...this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth. --Abraham Lincoln in the Gettysburg Address",
 "What lies behind us and what lies before us are tiny compared to what lies within us. --Ralph Waldo Emerson"
 ]
-example = []
-silva_rhetoricae = []
+example = [
+"The apple was bad, the pear was bad, it was all bad."
+]
+silva_rhetoricae = [
+"What lies behind us and what lies before us are tiny compared to what lies within us. --Emerson",
+"We are born to sorrow, pass our time in sorrow, end our days in sorrow."
+]
 
 [scheme.repetition_of_words.epanalepsis]
 name = "Epanalepsis"
@@ -282,7 +309,11 @@ wikipedia = [
 "Once more unto the breach, dear friends, once more; --Shakespeare, Henry V, 3.1.1"
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"In times like these, it is helpful to remember that there have always been times like these. --Paul Harvey",
+"Believe not all you can hear, tell not all you believe. --Native American proverb",
+"To each the boulders that have fallen to each. --Robert Frost, Mending Wall"
+]
 
 [scheme.repetition_of_words.anadiplosis]
 name = "Anadiplosis"
@@ -294,7 +325,9 @@ wikipedia = [
 "Fear leads to anger. Anger leads to hate. Hate leads to suffering. --Yoda, Star Wars",
 "Queeg: 'Aboard my ship, excellent performance is standard. Standard performance is sub-standard. Sub-standard performance is not permitted to exist.' --Herman Wouk, The Caine Mutiny."
 ]
-example = []
+example = [
+"The fox jumped over the lazy dog. The lazy dog kept sleeping on the grass."
+]
 silva_rhetoricae = []
 
 [scheme.repetition_of_words.antimetabole]
@@ -308,7 +341,12 @@ wikipedia = [
 "When the going gets tough, the tough get going."
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"Ask not what your country can do for you; ask what you can do for your country. --John F. Kennedy",
+"You can take the gorilla out of the jungle, but you can't take the jungle out of the gorilla.",
+"Integrity without knowledge is weak and useless, and knowledge without integrity is dangerous and dreadful. --Samuel Johnson, Rasselas",
+"Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter! --Isaiah 5:20"
+]
 
 [scheme.repetition_of_words.polysyndeton]
 name = "Polysyndeton"
@@ -335,7 +373,9 @@ wikipedia = [
 "Three grey geese in a green field grazing. Grey were the geese and green was the grazing."
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"Why not waste a wild weekend at Westmore Water Park?"
+]
 
 [scheme.repetition_of_sounds.assonance]
 name = "Assonance"
@@ -348,7 +388,9 @@ wikipedia = [
 "on a proud round cloud in white high night --E. E. Cummings, if a cheerfulest Elephantangelchild should sit"
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"The seargant asked him to bomb the lawn with hotpots."
+]
 
 [trope]
 name = "Trope"
@@ -376,7 +418,10 @@ opposite_of = ""
 description = "Reference to abstractions or inanimate objects as though they had human qualities or abilities."
 wikipedia = []
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"O beware, my lord, of jealousy! / It is the green-ey'd monster which doth mock / The meat it feeds on. --Iago in Shakespeare's Othello 3.3.165-67",
+"The insatiable hunger for imagination preys upon human life --Samuel Johnson"
+]
 
 [trope.reference.synecdoche]
 name = "Synecdoche"
@@ -390,25 +435,39 @@ wikipedia = [
 "'barrel' for a barrel of oil"
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"The rustler bragged he'd absconded with five hundred head of longhorns.",
+"Listen, you've got to come take a look at my new set of wheels."
+]
 
 [trope.reference.metaphor]
 name = "Metaphor"
-similar_to = ""
+similar_to = "Simile"
 opposite_of = ""
 description = "Reference to one thing as another, treating them as if the same and implying a comparison."
 wikipedia = []
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"No man is an island --John Donne",
+"For ever since that time you went away I've been a rabbit burrowed in the wood --Maurice Sceve",
+"Life is a beach.",
+"Who captains the ship of state"
+]
 
 [trope.reference.simile]
 name = "Simile"
 similar_to = ""
 opposite_of = ""
-description = "Explicit comparison of one thing to another (analogy)."
+description = "Explicit comparison of one thing to another, usually by the the words 'like' or 'as'."
 wikipedia = []
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"My love is like a red, red rose --Robert Burns",
+"Her hair was like gravy, running brown off her head and clumping up on her shoulders.",
+"The day we passed together for a while / Seemed a bright fire on a winter's night --Maurice Sceve",
+"You are like a hurricane: there's calm in your eye, but I'm getting blown away --Neil Young",
+"The air-lifted rhinoceros hit the ground like a garbage bag filled with split pea soup."
+]
 
 [trope.reference.metonymy]
 name = "Metonymy"
@@ -421,16 +480,12 @@ wikipedia = [
 "Referring to a monarch as 'the crown'"
 ]
 example = []
-silva_rhetoricae = []
-
-[trope.reference.allusion]
-name = "Allusion"
-similar_to = ""
-opposite_of = ""
-description = "Reference to something covertly or indirectly."
-wikipedia = []
-example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"The pen is mightier than the sword",
+"We await word from the crown.",
+"I'm told he's gone so far as to giver her a diamond ring",
+"The IRS is auditing me? Great. All I need is a couple of suits arriving at my door."
+]
 
 [trope.wordplay]
 name = "Wordplay"
@@ -446,14 +501,20 @@ wikipedia = [
 "We must, indeed, all hang together, or assuredly we shall all hang separately --Various"
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"If you aren't fired with enthusiasm, you will be fired with enthusiasm. --Vince Lombardi"
+]
 
-[trope.wordplay.paranomasia]
-name = "Paranomasia (pun)"
+[trope.wordplay.pun]
+name = "Pun"
 similar_to = ""
 opposite_of = ""
-description = "Using words that sound alike but that differ in meaning, a pun."
-wikipedia = []
+description = "Using words that either sound alike or are spelled the same but that differ in meaning."
+wikipedia = [
+"atheism is a non-prophet institution --George Carlin",
+"Question: Why do we still have troops in Germany? Answer: To keep the Russians in Czech",
+"You can tune a guitar, but you can't tuna fish. Unless of course, you play bass."
+]
 example = []
 silva_rhetoricae = []
 
@@ -461,8 +522,11 @@ silva_rhetoricae = []
 name = "Syllepsis"
 similar_to = ""
 opposite_of = ""
-description = "Using a word differently un relation to two or more words that it modifies or governs (sometimes called zeugma)."
-wikipedia = []
+description = "Using a word differently in relation to two or more words that it modifies or governs (sometimes called zeugma)."
+wikipedia = [
+"Lust conquered shame; audacity, fear; madness, reason.",
+"Histories make men wise; poets, witty; the mathematics, subtle; natural philosophy, deep; moral, grave; logic and rhetoric, able to contend. --Francis Bacon"
+]
 example = []
 silva_rhetoricae = []
 
@@ -473,19 +537,12 @@ opposite_of = ""
 description = "Use of words whose sound correspond with their semantic value."
 wikipedia = []
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"The buzzing of innumerable bees"
+]
 
 [trope.substitutions]
 name = "Substitutions"
-
-[trope.substitutions.synaesthesia]
-name = "Synaesthesia"
-similar_to = ""
-opposite_of = ""
-description = "Mixing one sensory input for another, such as smelling a color."
-wikipedia = []
-example = []
-silva_rhetoricae = []
 
 [trope.substitutions.periphrasis]
 name = "Periphrasis"
@@ -494,16 +551,28 @@ opposite_of = ""
 description = "Substitution of a descriptive word or phrase for a proper name or of a proper name for a quality associated with the name."
 wikipedia = []
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"In the TV show 'Dinosaurs' the infant dino called his father, 'Not-the-Mama.'",
+"He's no Fabio to look at; but then, he's no Woody Allen, either.",
+"Said of Aristotle: 'The prince of Peripatetics' --Angel Day"
+]
 
 [trope.substitutions.anthimeria]
 name = "Anthimeria"
 similar_to = ""
 opposite_of = ""
 description = "Substitution of one part of speech for another (such as a noun for a verb)."
-wikipedia = []
+wikipedia = [
+"I'll unhair thy head. --Shakespeare, Antony and Cleopatra, II, v.",
+"The thunder would not peace at my bidding. --Shakespeare, King Lear, IV, vi.",
+"Me, dictionary-ing heavily, 'Where was the one they were watching?' --Ernest Hemingway, Green Hills of Africa"
+]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"I've been Republicaned all I care to be this election year.",
+"Did you see the way those blockers defenced on that last play?",
+"Feel bad? Strike up some music and have a good sing."
+]
 
 [trope.overstatement]
 name = "Overstatement"
@@ -513,18 +582,16 @@ name = "Hyperbole"
 similar_to = ""
 opposite_of = ""
 description = "Use of exaggerated terms for emphasis or effect."
-wikipedia = []
+wikipedia = [
+"He was so angry, I thought he was going to kill somebody.",
+"She had a thousand missed calls.",
+"I was so embarrassed, I wanted to die.",
+"She's as blind as a bat."
+]
 example = []
-silva_rhetoricae = []
-
-[trope.overstatement.auxesis]
-name = "Auxesis"
-similar_to = ""
-opposite_of = ""
-description = "Reference to something with a name disproportionately greater than its nature (a kind of hyperbole)."
-wikipedia = []
-example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"I've told you a million times not to exaggerate."
+]
 
 [trope.understatement]
 name = "Understatement"
@@ -533,19 +600,32 @@ name = "Understatement"
 name = "Litotes"
 similar_to = ""
 opposite_of = ""
-description = "Understatemtn use deliberately."
-wikipedia = []
+description = "Understatement used deliberately."
+wikipedia = [
+"Not bad --> Good",
+"It's not my favourite --> I don't like it",
+"Not too shabby! --> Nice!"
+]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"It isn't very serious. I have this tiny little tumor on the brain. --J.D. Salinger, The Catcher in the Rye",
+"Running a marathon in under two hours is no small accomplishment."
+]
 
 [trope.understatement.meiosis]
 name = "Meiosis"
 similar_to = ""
 opposite_of = ""
 description = "Reference to something with a name disproportionately lesser than its nature (a kind of litotes)."
-wikipedia = []
+wikipedia = [
+"'(Our) peculiar institution', for slavery and its economic ramifications in the American South.",
+"'The Recent Unpleasantness', used in the 19th century in the southern United States as an idiom to refer to the American Civil War and its aftermath.",
+"'The Pond', for the Atlantic Ocean (across the pond)"
+]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"Said of an amputated leg: 'It's just a flesh wound' --Monty Python and the Holy Grail"
+]
 
 [trope.inversion]
 name = "Inversion"
@@ -555,34 +635,43 @@ name = "Paradox"
 similar_to = ""
 opposite_of = ""
 description = "An apparently contradictory statement that contains a measure of truth."
-wikipedia = []
+wikipedia = [
+"The following sentence is true. The previous sentence is false."
+]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"Whosoever loses his life, shall find it."
+]
 
 [trope.inversion.oxymoron]
 name = "Oxymoron"
 similar_to = ""
 opposite_of = ""
 description = "Placing two ordinarily opposing terms adjacent to one another. A compressed paradox with a measure of truth."
-wikipedia = []
+wikipedia = [
+"fiery ice",
+"cruel kindness",
+"bittersweet",
+"a wise fool",
+"pleasing pain",
+"noiseless sound"
+]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"... Yet from those flames / No light, but rather darkness visible / Served only to discover sights of woe. --Milton, Paradise Lost 1.62-64",
+"The Sounds of Silence"
+]
 
 [trope.inversion.rhetorical_question]
 name = "Rhetorical question"
 similar_to = ""
 opposite_of = ""
 description = "Asking a question for a purpose other than obtaining the information requested."
-wikipedia = []
-example = []
-silva_rhetoricae = []
-
-[trope.inversion.irony]
-name = "Irony"
-similar_to = ""
-opposite_of = ""
-description = ""
-wikipedia = []
+wikipedia = [
+"Can't you do anything right?",
+"How do you hold a moonbeam in your hand?",
+"Is the sky blue?"
+]
 example = []
 silva_rhetoricae = []
 
@@ -596,16 +685,22 @@ wikipedia = [
 "What a fine artist you've become! (When meaning to express displeasure)."
 ]
 example = []
-silva_rhetoricae = []
+silva_rhetoricae = [
+"If you be the son of God, descend from the cross --Matt. 27"
+]
 
 [trope.inversion.aporia]
 name = "Aporia"
 similar_to = ""
 opposite_of = ""
-description = "Talking as if unable to continue."
+description = "Deliberating with oneself as though in doubt over some matter; asking oneself (or rhetorically asking one's hearers) what is the best or appropriate way to approach something. (Silva Rhetoricae)"
 wikipedia = []
-example = []
-silva_rhetoricae = []
+example = [
+"Where to begin? Well I support it all started when..."
+]
+silva_rhetoricae = [
+"Where shall I begin to describe her wisdom? In her knowledge of facts? In her ability to synthesize diverse matters? In her capacity to articulate complex ideas simply?"
+]
 
 
 
