@@ -51,14 +51,38 @@ for i in trope_generator(data):
         print("wikipedia is not a list")
         raise e
 
-for i in trope_generator(data):
-    print(f"What is the definition of {i['name'].lower()}?")
-    print(i["description"])
-    print("---")
-    print(f"What is this {i['genus'].lower()} describing?\n\n{i['description']}")
-    print(i["name"])
-    print("---")
-    for example in i["wikipedia"]:
-        print(f"{example}\n\nWhat is this quote an example of?")
-        print(i["name"])
-        print("---")
+def make_by_name(d, f):
+    for i in trope_generator(d):
+        yield f"What is the definition of {i['name'].lower()}?\t{i['description']}\n"
+
+def make_by_description(d, f):
+    for i in trope_generator(d):
+        start = f"What {i['genus'].lower()} is this describing?<br><br>{i['description']}"
+        end = f"\t{i['name']}\n"
+        if i["example"]:
+            start += "<br><br>Examples:"
+            for e in i["example"]:
+                start += f"<br>{e}"
+        yield start+end
+
+def make_by_quote(d, f):
+    for i in trope_generator(d):
+        for q in i["wikipedia"]:
+            yield f"{q}<br><br>What is this quote an example of?\t{i['name']}: {i['description']}\n"
+        for q in i["silva_rhetoricae"]:
+            yield f"{q}<br><br>What is this quote an example of?\t{i['name']}: {i['description']}\n"
+
+def make_by_example(d, f):
+    for i in trope_generator(d):
+        if i["example"]:
+            yield f"What {i['genus'].lower()} are these examples of?<br><br>{'<br>'.join([e for e in i['example']])}\t{i['name']}<br><br>{i['description']}\n"
+
+with open("./test.tsv", "w") as f:
+    for i in make_by_name(data, f):
+        f.write(i)
+    for i in make_by_description(data, f):
+        f.write(i)
+    for i in make_by_quote(data, f):
+        f.write(i)
+    for i in make_by_example(data, f):
+        f.write(i)
