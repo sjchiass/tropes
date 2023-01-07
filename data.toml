@@ -8,8 +8,10 @@ name = "Balance"
 name = "Isocolon (bicolon, tricolon, tetracolon)"
 similar_to = ""
 opposite_of = ""
-description = "A series of similarly structured elements having the same length, a series of two, three, four or more elements."
-wikipedia = [
+description = [
+    "A series of similarly structured elements having the same length. A kind of parallelism. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/I/isocolon.htm))",
+]
+quote = [
 "I came, I saw, I conquered --Caesar"
 ]
 example = [
@@ -17,27 +19,25 @@ example = [
 "Buy one, get one free",
 "Signed, sealed, and delivered"
 ]
-silva_rhetoricae = []
 
 [scheme.balance.parallelism]
 name = "Parallelism"
 similar_to = ""
 opposite_of = ""
-description = "Similarity of structure in a pair or series of related wordds, phrases, or clauses."
-wikipedia = [
+description = "Similarity of structure in a pair or series of related words, phrases, or clauses. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/parallelism.htm))"
+quote = [
 "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. --proverb"
 ]
 example = [
 "The fox lept over the dog, and the dog slept under the rug."
 ]
-silva_rhetoricae = []
 
 [scheme.balance.climax]
 name = "Climax"
 similar_to = ""
 opposite_of = ""
-description = "Generally, the arrangement of words, phrases, or clauses in an order of increasing importance, often in parallel structure."
-wikipedia = [
+description = "Generally, the arrangement of words, phrases, or clauses in an order of increasing importance, often in parallel structure. More specifically, climax is the repetition of the last word of one clause or sentence at the beginning of the next, through several clauses or sentences. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/climax.htm))"
+quote = [
 "...O'erthrows thy joys, friends, fortune and thy state --William Shakespeare from Richard II"
 ]
 example = [
@@ -46,26 +46,46 @@ example = [
 silva_rhetoricae = []
 
 [scheme.balance.bathos]
-name = "Bathos or anti-climax"
+name = "Anti-climax or bathos"
 similar_to = ""
 opposite_of = ""
-description = "The least important items appears either anticlimatically or unexpectedly."
-wikipedia = [
+description = [
+    "The least important items appears either anticlimatically or unexpectedly.",
+    "Today, bathos refers to rhetorical anticlimax, an abrupt transition from a lofty style or grand topic to a common or vulgar one, occurring either accidentally (through artistic ineptitude) or intentionally (for comic effect). ([Wikipedia](https://en.wikipedia.org/wiki/Bathos))"
+    ]
+quote = [
 "Die and endow a college or a cat. --Alexander Pope"
 ]
 example = [
 "They stole the money from the registers, the gold in the vault, and the free pens by the exit."
 ]
-silva_rhetoricae = []
+
+[scheme.balance.catacosmesis]
+name = "Catacosmesis"
+similar_to = ""
+opposite_of = "Climax"
+description = [
+    "Ordering words from greatest to least in dignity, or in correct order of time. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/catacosmesis.htm))"
+    ]
+quote = [
+]
+example = [
+    "Sun and moon ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/catacosmesis.htm))",
+    "Life and death ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/catacosmesis.htm))",
+    "First he planned the murder; then he carried it out. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/catacosmesis.htm))"
+]
 
 [scheme.balance.antithesis]
 name = "Antithesis"
 similar_to = ""
 opposite_of = ""
-description = "Juxtaposition of contrasting ideas (often in parallel structure)."
-wikipedia = [
-"Man proposes, God disposes. --Edwin Landseer",
-"I came not to bring peace but a sword. --St Matthew's Gospel, 10:34"
+description = [
+    "Juxtaposition of contrasting words or ideas (often, although not always, in parallel structure). ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/antithesis.htm))"
+quote = [
+"Man **proposes**, God **disposes**. --Edwin Landseer",
+"I came not to bring **peace** but a **sword**. --St Matthew's Gospel, 10:34",
+"It has been my experience that folks who have no **vices** have very few **virtues**. --Abraham Lincoln",
+"It can't be **wrong** if it feels so **right** --Debbie Boone"
 ]
 example = []
 silva_rhetoricae = []
@@ -74,15 +94,17 @@ silva_rhetoricae = []
 name = "Chiasmus"
 similar_to = ""
 opposite_of = ""
-description = "Repetition of grammatical structures in reverse order in successive phrases or clauses (not to be mistaken with antimetabole). The words themselves are not repeated."
-wikipedia = [
+description = [
+    "Repetition of ideas in inverted order or repetition of grammatical structures in inverted order (not to be mistaken with antimetabole, in which identical words are repeated and inverted). ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/chiasmus.htm))",
+    "Chiasmus is a reversal of grammatical structures in successive phrases or clauses – but no repetition of words. ([Wikipedia](https://en.wikipedia.org/wiki/Chiasmus))"
+    ]
+quote = [
 "By day the frolic, and the dance by night. --Samuel Johnson, The Vanity of Human Wishes (1794)",
-"Despised, if ugly; if she's fair, betrayed. -- Mary Leapor, Essay on Woman"
+"Despised, if ugly; if she's fair, betrayed. --Mary Leapor, Essay on Woman",
+"But O, what damned minutes tells he o'er / Who dotes, yet doubts; suspects, yet strong loves. -Shakespeare, Othello 3.3"
 ]
-example = []
-silva_rhetoricae = [
-"But O, what damned minutes tells he o'er / Who dotes, yet doubts; suspects, yet strong loves. -Shakespeare, Othello 3.3",
-"It is boring to eat; to sleep is fulfilling"
+example = [
+    "It is boring to eat; to sleep is fulfilling ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/chiasmus.htm))"
 ]
 
 [scheme.changes]
@@ -92,51 +114,63 @@ name = "Changes"
 name = "Anastrophe"
 similar_to = "Hyperbaton"
 opposite_of = ""
-description = "Inversion of natural order, such as switching adjective and noun."
-wikipedia = [
-"Powerful you have become, the dark side I sense in you. --Star Wars"
+description = [
+    "Anastrophe is a figure of speech in which the normal word order of the subject, the verb, and the object is changed. ([Wikipedia](https://en.wikipedia.org/wiki/Anastrophe))",
+    "Departure from normal word order for the sake of emphasis. Anastrophe is most often a synonym for hyperbaton, but is occasionally referred to as a more specific instance of hyperbaton: the changing of the position of only a single word. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))"
+    ]
+quote = [
+"Powerful you have become, the dark side I sense in you. --Star Wars",
+"It only stands / Our lives upon, to use Our strongest hands --Shakespeare, Antony and Cleopatra 2.1.50-51"
 ]
 example = [
 "The quick fox jumps over the dog brown and lazy.",
-"For breakfast I ate the apple sweet."
-]
-silva_rhetoricae = [
-"Glistens the dew upon the morning grass. (Normally: The dew glistens upon the morning grass)",
-"She looked at the sky dark and menacing. (Normally: She looked at the dark and menacing sky)",
-"Troubles, everybody's got. (Normally: Everybody's got troubles)",
-"It only stands / Our lives upon, to use Our strongest hands --Shakespeare, Antony and Cleopatra 2.1.50-51"
+"For breakfast I ate the apple sweet.",
+"Glistens the dew upon the morning grass. (Normally: The dew glistens upon the morning grass) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))",
+"She looked at the sky dark and menacing. (Normally: She looked at the dark and menacing sky) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))",
+"Troubles, everybody's got. (Normally: Everybody's got troubles) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))"
 ]
 
 [scheme.changes.parenthesis]
 name = "Parenthesis"
 similar_to = "Tmesis"
 opposite_of = ""
-description = "Insertion of a verbal unit that interrupts normal syntactical flow."
-wikipedia = [
-"Billy-bob, a great singer, was not a good dancer.",
-"A dog (not a cat) is an animal that barks.",
-"My umbrella (which is somewhat broken) can still shield the two of us from the rain.",
-"Please, Gerald, come here!"
+description = [
+    "In rhetoric, a parenthesis or parenthetical phrase is an explanatory or qualifying word, clause, or sentence inserted into a passage. The parenthesis could be left out and still form grammatically correct text. Parenthetical expressions are usually delimited by round or square brackets, dashes, or commas. ([Wikipedia](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric)))"
+    "Insertion of a verbal unit that interrupts normal syntactical flow. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/parenthesis.htm))"
+]
+quote = [
+    """But what might you think,
+When I had seen this hot love on the wing—
+As I perceiv'd it (I must tell you that)
+Before my daughter told me—what might you,
+Or my dear Majesty your queen here, think...?
+
+--Shakespeare, Hamlet 2.2.131-35"""
 ]
 example = [
-"The fox (the quick one) jumped over the lazy dog."
+"The fox (the quick one) jumped over the lazy dog.",
+"Billy-bob, a great singer, was not a good dancer. (Wikipedia)",
+"A dog (not a cat) is an animal that barks. (Wikipedia)",
+"My umbrella (which is somewhat broken) can still shield the two of us from the rain. (Wikipedia)",
+"Please, Gerald, come here! (Wikipedia)"
 ]
-silva_rhetoricae = []
 
 [scheme.changes.hyperbaton]
 name = "Hyperbaton"
 similar_to = "Anastrophe"
 opposite_of = ""
-description = "Pushing or pulling a word where it is not expected."
-wikipedia = [
+description = ["Pushing or pulling a word where it is not expected.",
+               "A figure of speech in which a phrase is made discontinuous by the insertion of other words. In modern usage, the term is also used more generally for figures of speech that transpose sentences' natural word order, and it is also called an anastrophe. ([Wikipedia](https://en.wikipedia.org/wiki/Hyperbaton))",
+               "An inversion of normal word order. A generic term for a variety of figures involving transposition, it is sometimes synonymous with anastrophe or adding a word or thought to a sentence that is already semantically complete, thus drawing emphasis to the addition. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/H/hyperbaton.htm))"
+               
+]
+quote = [
 "Object there was none. Passion there was none. --Edgar Allan Poe, The Tell-Tale Heart",
 "Bloody thou art; bloody will be thy end --William Shakespeare in Richard III, 4.4, 198",
-"Backward ran sentences until reeled the mind. --Wolcott Gibbs's 1936 parody of Time magazine"
+"Backward ran sentences until reeled the mind. --Wolcott Gibbs's 1936 parody of Time magazine",
+"Adriana asks regarding men in Shakespeare's Comedy of Errors: Why should their liberty than ours be more? (Silva Rhetorica)"
 ]
 example = []
-silva_rhetoricae = [
-"Adriana asks regarding men in Shakespeare's Comedy of Errors: Why should their liberty than ours be more?"
-]
 
 [scheme.changes.enallage]
 name = "Enallage"
