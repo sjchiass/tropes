@@ -51,7 +51,7 @@ similar_to = ""
 opposite_of = ""
 description = "The least important items appears either anticlimatically or unexpectedly."
 wikipedia = [
-"Die and endow a college or a cat."
+"Die and endow a college or a cat. --Alexander Pope"
 ]
 example = [
 "They stole the money from the registers, the gold in the vault, and the free pens by the exit."
@@ -64,7 +64,7 @@ similar_to = ""
 opposite_of = ""
 description = "Juxtaposition of contrasting ideas (often in parallel structure)."
 wikipedia = [
-"Man proposes, God disposes.",
+"Man proposes, God disposes. --Edwin Landseer",
 "I came not to bring peace but a sword. --St Matthew's Gospel, 10:34"
 ]
 example = []
@@ -362,7 +362,7 @@ example = []
 silva_rhetoricae = []
 
 [scheme.repetition_of_sounds]
-name = "Repitiion of sounds"
+name = "Repetition of sounds"
 
 [scheme.repetition_of_sounds.alliteration]
 name = "Alliteration"
@@ -574,10 +574,10 @@ silva_rhetoricae = [
 "Feel bad? Strike up some music and have a good sing."
 ]
 
-[trope.overstatement]
-name = "Overstatement"
+[trope.magnitude]
+name = "Magnitude"
 
-[trope.overstatement.hyperbole]
+[trope.magnitude.hyperbole]
 name = "Hyperbole"
 similar_to = ""
 opposite_of = ""
@@ -593,10 +593,7 @@ silva_rhetoricae = [
 "I've told you a million times not to exaggerate."
 ]
 
-[trope.understatement]
-name = "Understatement"
-
-[trope.understatement.litotes]
+[trope.magnitude.litotes]
 name = "Litotes"
 similar_to = ""
 opposite_of = ""
@@ -612,7 +609,7 @@ silva_rhetoricae = [
 "Running a marathon in under two hours is no small accomplishment."
 ]
 
-[trope.understatement.meiosis]
+[trope.magnitude.meiosis]
 name = "Meiosis"
 similar_to = ""
 opposite_of = ""
