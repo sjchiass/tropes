@@ -51,7 +51,6 @@ quote = [
 example = [
     "The fox lept over the mouse, the dog and the moose."
 ]
-silva_rhetoricae = []
 
 [scheme.balance.bathos]
 name = "Anti-climax or bathos"
@@ -89,6 +88,7 @@ similar_to = ""
 opposite_of = ""
 description = [
     "Juxtaposition of contrasting words or ideas (often, although not always, in parallel structure). ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/antithesis.htm))"
+]
 quote = [
     "Man **proposes**, God **disposes**. --Edwin Landseer",
     "I came not to bring **peace** but a **sword**. --St Matthew's Gospel, 10:34",
@@ -96,7 +96,6 @@ quote = [
     "It can't be **wrong** if it feels so **right** --Debbie Boone"
 ]
 example = []
-silva_rhetoricae = []
 
 [scheme.balance.chiasmus]
 name = "Chiasmus"
@@ -143,7 +142,7 @@ name = "Parenthesis"
 similar_to = "Tmesis"
 opposite_of = ""
 description = [
-    "In rhetoric, a parenthesis or parenthetical phrase is an explanatory or qualifying word, clause, or sentence inserted into a passage. The parenthesis could be left out and still form grammatically correct text. Parenthetical expressions are usually delimited by round or square brackets, dashes, or commas. ([Wikipedia](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric)))"
+    "In rhetoric, a parenthesis or parenthetical phrase is an explanatory or qualifying word, clause, or sentence inserted into a passage. The parenthesis could be left out and still form grammatically correct text. Parenthetical expressions are usually delimited by round or square brackets, dashes, or commas. ([Wikipedia](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric)))",
     "Insertion of a verbal unit that interrupts normal syntactical flow. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/parenthesis.htm))"
 ]
 quote = [
@@ -189,13 +188,12 @@ description = [
     "The use of incorrect grammar whether to achieve a parallel structure or give a particular impression.",
     "One type of scheme of rhetorical figures of speech which is used to refer to the use of tense, form, or person for a grammatically incorrect counterpart. ([Wikipedia](https://en.wikipedia.org/wiki/Enallage))"
 ]
-wikipedia = [
+quote = [
     "Is there not wars? Is there not employment? --2nd Henry IV, I, ii",
     "The idols are broke in the temple of Baal. --Byron",
     "Think different. --Apple slogan"
 ]
 example = []
-silva_rhetoricae = []
 
 [scheme.changes.hypallage]
 name = "Hypallage"
@@ -298,7 +296,8 @@ description = [
     "Omission of conjunction between a series of clauses to create speed and brevity.",
     "The omission of conjunctions between clauses, often resulting in a hurried rhythm or vehement effect. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/asyndeton.htm)",
     "A literary scheme in which one or several conjunctions are deliberately omitted from a series of related clauses. ([Wikipedia](https://en.wikipedia.org/wiki/Asyndeton))"
-wikipedia = [
+]
+quote = [
     "...and that government of the people, by the people, for the people shall not perish from the earth. --Abraham Lincoln, Gettysburg Address",
     "A parson or what looked like one was laboring over the crest of the hill and coming toward them with one hand raised in blessing, greeting, fending flies. --Cormac McCarthy, Outer Dark, 1968"
 ]
@@ -331,6 +330,7 @@ description = [
     "Repetition of words derived from the same root.",
     "Repeating a word, but in a different form. Using a cognate of a given word in close proximity. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/polyptoton.htm)",
     "The stylistic scheme in which words derived from the same root are repeated (such as 'strong' and 'strength'). ([Wikipedia])(https://en.wikipedia.org/wiki/Polyptoton)"
+]
 quote = [
     "Judge not, that ye be not judged --Matthew 7:1",
     "Absolute power corrupts absolutely. --Lord Acton",
@@ -732,7 +732,7 @@ example = [
     "He was so angry, I thought he was going to kill somebody. (Wikipedia)",
     "She had a thousand missed calls. (Wikipedia)",
     "I was so embarrassed, I wanted to die. (Wikipedia)",
-    "She's as blind as a bat. (Wikipedia)"],
+    "She's as blind as a bat. (Wikipedia)",
     "I've told you a million times not to exaggerate. (Silva Rhetoricae)"
 ]
 
