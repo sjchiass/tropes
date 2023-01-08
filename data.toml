@@ -487,71 +487,80 @@ name = "Reference"
 name = "Apostrophe"
 similar_to = ""
 opposite_of = ""
-description = "Addressing someone or some abstraction that is not physically present."
-wikipedia = [
+description = [
+    "Turning one's speech from one audience to another. Most often, apostrophe occurs when one addresses oneself to an abstraction, to an inanimate object, or to the absent. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/apostrophe.htm)",
+    "An exclamatory figure of speech. It occurs when a speaker breaks off from addressing the audience (e.g., in a play) and directs speech to a third party such as an opposing litigant or some other individual, sometimes absent from the scene. Often the addressee is a personified abstract quality or inanimate object. ([Wikipedia])(https://en.wikipedia.org/wiki/Apostrophe_(figure_of_speech))"
+]
+quote = [
 "O death, where is thy sting? O grave, where is thy victory? --1 Corinthians 15:55, Paul the Apostle",
 "O happy dagger! This is thy sheath; there rest, and let me die. --Romeo and Juliet, act 5, scene 3, 169–170.",
 "O My friends, there is no friend. --Montaigne, originally attributed to Aristotle"
 ]
 example = []
-silva_rhetoricae = []
 
 [trope.reference.personification]
 name = "Personification"
 similar_to = ""
 opposite_of = ""
-description = "Reference to abstractions or inanimate objects as though they had human qualities or abilities."
-wikipedia = []
-example = []
-silva_rhetoricae = [
+description = [
+    "Reference to abstractions or inanimate objects as though they had human qualities or abilities ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/personification.htm)"
+]
+quote = [
 "O beware, my lord, of jealousy! / It is the green-ey'd monster which doth mock / The meat it feeds on. --Iago in Shakespeare's Othello 3.3.165-67",
 "The insatiable hunger for imagination preys upon human life --Samuel Johnson"
 ]
+example = []
 
 [trope.reference.synecdoche]
 name = "Synecdoche"
 similar_to = "Metonymy"
 opposite_of = ""
-description = "A whole is represented by naming one of its parts."
-wikipedia = [
-"Referring to a sword as a 'blade'",
-"Describing a complete vehicle as 'wheels'",
-"'carbon' for the entire basket of greenhouse gases, as a shorthand derived from carbon dioxide, the most common such gas",
-"'barrel' for a barrel of oil"
+description = [
+    "A whole is represented by naming one of its parts (genus named for species), or vice versa (species named for genus).  ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/S/synecdoche.htm)",
+    "A figure of speech in which a term for a part of something is used to refer to the whole (pars pro toto), or vice versa (totum pro parte). ([Wikipedia])(https://en.wikipedia.org/wiki/Synecdoche)"
 ]
-example = []
-silva_rhetoricae = [
-"The rustler bragged he'd absconded with five hundred head of longhorns.",
-"Listen, you've got to come take a look at my new set of wheels."
+quote = []
+example = [
+"Referring to a sword as a 'blade' (Wikipedia)",
+"'carbon' for the entire basket of greenhouse gases, as a shorthand derived from carbon dioxide, the most common such gas (Wikipedia)",
+"'barrel' for a barrel of oil (Wikipedia)",
+"The rustler bragged he'd absconded with five hundred head of longhorns. (Silva Rhetoricae)",
+"Listen, you've got to come take a look at my new set of wheels. (Silva Rhetoricae)"
 ]
 
 [trope.reference.metaphor]
 name = "Metaphor"
 similar_to = "Simile"
 opposite_of = ""
-description = "Reference to one thing as another, treating them as if the same and implying a comparison."
-wikipedia = []
-example = []
-silva_rhetoricae = [
+description = [
+    "A comparison made by referring to one thing as another. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/M/metaphor.htm)",
+    "A figure of speech that, for rhetorical effect, directly refers to one thing by mentioning another. It may provide (or obscure) clarity or identify hidden similarities between two different ideas. ([Wikipedia])(https://en.wikipedia.org/wiki/Metaphor)"
+]
+quote = [
 "No man is an island --John Donne",
-"For ever since that time you went away I've been a rabbit burrowed in the wood --Maurice Sceve",
-"Life is a beach.",
-"Who captains the ship of state"
+"For ever since that time you went away I've been a rabbit burrowed in the wood --Maurice Sceve"
+]
+example = [
+    "Life is a beach. (Silva Rhetoricae)",
+    "Who captains the ship of state (Silva Rhetoricae)"
 ]
 
 [trope.reference.simile]
 name = "Simile"
 similar_to = ""
 opposite_of = ""
-description = "Explicit comparison of one thing to another, usually by the the words 'like' or 'as'."
-wikipedia = []
-example = []
-silva_rhetoricae = [
+description = [
+    "An explicit comparison, often (but not necessarily) employing 'like' or 'as.' ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/S/simile.htm)",
+    "A figure of speech that directly compares two things by highlighting the similarities between two things using comparison words such as 'like', 'as', 'so', or 'than'. ([Wikipedia])(https://en.wikipedia.org/wiki/Simile)"
+]
+quote = [
 "My love is like a red, red rose --Robert Burns",
-"Her hair was like gravy, running brown off her head and clumping up on her shoulders.",
 "The day we passed together for a while / Seemed a bright fire on a winter's night --Maurice Sceve",
-"You are like a hurricane: there's calm in your eye, but I'm getting blown away --Neil Young",
-"The air-lifted rhinoceros hit the ground like a garbage bag filled with split pea soup."
+"You are like a hurricane: there's calm in your eye, but I'm getting blown away --Neil Young"
+]
+example = [
+"Her hair was like gravy, running brown off her head and clumping up on her shoulders. (Silva Rhetoricae)",
+"The air-lifted rhinoceros hit the ground like a garbage bag filled with split pea soup. (Silva Rhetoricae)"
 ]
 
 [trope.reference.metonymy]
