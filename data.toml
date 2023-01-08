@@ -567,18 +567,19 @@ example = [
 name = "Metonymy"
 similar_to = "Synecdoche"
 opposite_of = ""
-description = "Reference to something or someone by naming one of its attributes or something associated with it."
-wikipedia = [
-"Referring to a human as a 'mortal'",
-"Referring to an old man as a 'grey beard'",
-"Referring to a monarch as 'the crown'"
+description = [
+    "Reference to something or someone by naming one of its attributes. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/M/metonymy.htm)",
+    "A figure of speech in which a concept is referred to by the name of something closely associated with that thing or concept. ([Wikipedia])(https://en.wikipedia.org/wiki/Metonymy)"
 ]
-example = []
-silva_rhetoricae = [
-"The pen is mightier than the sword",
-"We await word from the crown.",
-"I'm told he's gone so far as to giver her a diamond ring",
-"The IRS is auditing me? Great. All I need is a couple of suits arriving at my door."
+quote = [
+]
+example = [
+"Referring to a human as a 'mortal' (Wikipedia)",
+"Referring to an old man as a 'grey beard' (Wikipedia)",
+"The pen is mightier than the sword (Silva Rhetoricae)",
+"We await word from the crown. (Silva Rhetoricae)",
+"I'm told he's gone so far as to giver her a diamond ring (Silva Rhetoricae)",
+"The IRS is auditing me? Great. All I need is a couple of suits arriving at my door. (Silva Rhetoricae)"
 ]
 
 [trope.wordplay]
@@ -588,41 +589,50 @@ name = "Wordplay"
 name = "Antanaclasis"
 similar_to = "Paranomasia (pun)"
 opposite_of = ""
-description = "Repetition of a word in two different senses."
-wikipedia = [
-"Your argument is sound, nothing but sound. --Benjamin Franklin",
-"Time flies like an arrow; fruit flies like a banana",
-"We must, indeed, all hang together, or assuredly we shall all hang separately --Various"
+description = [
+    "The repetition of a word or phrase whose meaning changes in the second instance. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/antanaclasis.htm)",
+    "The literary trope in which a single word or phrase is repeated, but in two different senses. ([Wikipedia])(https://en.wikipedia.org/wiki/Antanaclasis)"
 ]
-example = []
-silva_rhetoricae = [
+quote = [
+"Your argument is sound, nothing but sound. --Benjamin Franklin",
+"We must, indeed, all hang together, or assuredly we shall all hang separately --Various",
 "If you aren't fired with enthusiasm, you will be fired with enthusiasm. --Vince Lombardi"
+]
+example = [    
+"Time flies like an arrow; fruit flies like a banana (Wikipedia)",
+"While we live, let us live. (Silva Rhetoricae)"
 ]
 
 [trope.wordplay.pun]
-name = "Pun"
+name = "Pun (paranomasia)"
 similar_to = ""
 opposite_of = ""
-description = "Using words that either sound alike or are spelled the same but that differ in meaning."
-wikipedia = [
-"atheism is a non-prophet institution --George Carlin",
-"Question: Why do we still have troops in Germany? Answer: To keep the Russians in Czech",
-"You can tune a guitar, but you can't tuna fish. Unless of course, you play bass."
+description = [
+    "A form of word play that exploits multiple meanings of a term, or of similar-sounding words, for an intended humorous or rhetorical effect. These ambiguities can arise from the intentional use of homophonic, homographic, metonymic, or figurative language. ([Wikipedia])(https://en.wikipedia.org/wiki/Pun)"
 ]
-example = []
-silva_rhetoricae = []
+quote = [
+    "Atheism is a non-prophet institution --George Carlin",
+    "You can tune a guitar, but you can't tuna fish. Unless of course, you play bass. --Douglas Adams"
+]
+example = [
+    "Question: Why do we still have troops in Germany? Answer: To keep the Russians in Czech (Wikipedia)"
+]
 
 [trope.wordplay.syllepsis]
-name = "Syllepsis"
+name = "Syllepsis and/or zeugma"
 similar_to = ""
 opposite_of = ""
-description = "Using a word differently in relation to two or more words that it modifies or governs (sometimes called zeugma)."
-wikipedia = [
-"Lust conquered shame; audacity, fear; madness, reason.",
-"Histories make men wise; poets, witty; the mathematics, subtle; natural philosophy, deep; moral, grave; logic and rhetoric, able to contend. --Francis Bacon"
+description = [
+    "When a single word that governs or modifies two or more others must be understood differently with respect to each of those words. A combination of grammatical parallelism and semantic incongruity, often with a witty or comical effect. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/S/syllepsis.htm)",
+    "Figures of speech in which a single phrase or word joins different parts of a sentence. ([Wikipedia])(https://en.wikipedia.org/wiki/Zeugma_and_syllepsis)"
+]
+quote = [
+"Lust conquered shame; audacity, fear; madness, reason. --Cicero",
+"Histories make men wise; poets, witty; the mathematics, subtle; natural philosophy, deep; moral, grave; logic and rhetoric, able to contend. --Francis Bacon",
+"Rend your heart, and not your garments. --Joel 2:13",
+"Fix the problem, not the blame. —Dave Weinbaum"
 ]
 example = []
-silva_rhetoricae = []
 
 [trope.wordplay.onomatopoeia]
 name = "Onomatopoeia"
