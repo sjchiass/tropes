@@ -16,36 +16,40 @@ description = [
     "A series of similarly structured elements having the same length. A kind of parallelism. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/I/isocolon.htm))",
 ]
 quote = [
-"I came, I saw, I conquered --Caesar"
+    "I came, I saw, I conquered --Caesar"
 ]
 example = [
-"Want some, get some",
-"Buy one, get one free",
-"Signed, sealed, and delivered"
+    "Want some, get some",
+    "Buy one, get one free",
+    "Signed, sealed, and delivered"
 ]
 
 [scheme.balance.parallelism]
 name = "Parallelism"
 similar_to = ""
 opposite_of = ""
-description = "Similarity of structure in a pair or series of related words, phrases, or clauses. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/parallelism.htm))"
+description = [
+    "Similarity of structure in a pair or series of related words, phrases, or clauses. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/parallelism.htm))"
+]
 quote = [
-"Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. --proverb"
+    "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. --proverb"
 ]
 example = [
-"The fox lept over the dog, and the dog slept under the rug."
+    "The fox lept over the dog, and the dog slept under the rug."
 ]
 
 [scheme.balance.climax]
 name = "Climax"
 similar_to = ""
 opposite_of = ""
-description = "Generally, the arrangement of words, phrases, or clauses in an order of increasing importance, often in parallel structure. More specifically, climax is the repetition of the last word of one clause or sentence at the beginning of the next, through several clauses or sentences. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/climax.htm))"
+description = [
+    "Generally, the arrangement of words, phrases, or clauses in an order of increasing importance, often in parallel structure. More specifically, climax is the repetition of the last word of one clause or sentence at the beginning of the next, through several clauses or sentences. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/climax.htm))"
+]
 quote = [
-"...O'erthrows thy joys, friends, fortune and thy state --William Shakespeare from Richard II"
+    "...O'erthrows thy joys, friends, fortune and thy state --William Shakespeare from Richard II"
 ]
 example = [
-"The fox lept over the mouse, the dog and the moose."
+    "The fox lept over the mouse, the dog and the moose."
 ]
 silva_rhetoricae = []
 
@@ -58,10 +62,10 @@ description = [
     "Today, bathos refers to rhetorical anticlimax, an abrupt transition from a lofty style or grand topic to a common or vulgar one, occurring either accidentally (through artistic ineptitude) or intentionally (for comic effect). ([Wikipedia](https://en.wikipedia.org/wiki/Bathos))"
     ]
 quote = [
-"Die and endow a college or a cat. --Alexander Pope"
+    "Die and endow a college or a cat. --Alexander Pope"
 ]
 example = [
-"They stole the money from the registers, the gold in the vault, and the free pens by the exit."
+    "They stole the money from the registers, the gold in the vault, and the free pens by the exit."
 ]
 
 [scheme.balance.catacosmesis]
@@ -86,10 +90,10 @@ opposite_of = ""
 description = [
     "Juxtaposition of contrasting words or ideas (often, although not always, in parallel structure). ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/antithesis.htm))"
 quote = [
-"Man **proposes**, God **disposes**. --Edwin Landseer",
-"I came not to bring **peace** but a **sword**. --St Matthew's Gospel, 10:34",
-"It has been my experience that folks who have no **vices** have very few **virtues**. --Abraham Lincoln",
-"It can't be **wrong** if it feels so **right** --Debbie Boone"
+    "Man **proposes**, God **disposes**. --Edwin Landseer",
+    "I came not to bring **peace** but a **sword**. --St Matthew's Gospel, 10:34",
+    "It has been my experience that folks who have no **vices** have very few **virtues**. --Abraham Lincoln",
+    "It can't be **wrong** if it feels so **right** --Debbie Boone"
 ]
 example = []
 silva_rhetoricae = []
@@ -103,9 +107,9 @@ description = [
     "Chiasmus is a reversal of grammatical structures in successive phrases or clauses – but no repetition of words. ([Wikipedia](https://en.wikipedia.org/wiki/Chiasmus))"
     ]
 quote = [
-"By day the frolic, and the dance by night. --Samuel Johnson, The Vanity of Human Wishes (1794)",
-"Despised, if ugly; if she's fair, betrayed. --Mary Leapor, Essay on Woman",
-"But O, what damned minutes tells he o'er / Who dotes, yet doubts; suspects, yet strong loves. -Shakespeare, Othello 3.3"
+    "By day the frolic, and the dance by night. --Samuel Johnson, The Vanity of Human Wishes (1794)",
+    "Despised, if ugly; if she's fair, betrayed. --Mary Leapor, Essay on Woman",
+    "But O, what damned minutes tells he o'er / Who dotes, yet doubts; suspects, yet strong loves. -Shakespeare, Othello 3.3"
 ]
 example = [
     "It is boring to eat; to sleep is fulfilling ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/C/chiasmus.htm))"
@@ -123,15 +127,15 @@ description = [
     "Departure from normal word order for the sake of emphasis. Anastrophe is most often a synonym for hyperbaton, but is occasionally referred to as a more specific instance of hyperbaton: the changing of the position of only a single word. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))"
     ]
 quote = [
-"Powerful you have become, the dark side I sense in you. --Star Wars",
-"It only stands / Our lives upon, to use Our strongest hands --Shakespeare, Antony and Cleopatra 2.1.50-51"
+    "Powerful you have become, the dark side I sense in you. --Star Wars",
+    "It only stands / Our lives upon, to use Our strongest hands --Shakespeare, Antony and Cleopatra 2.1.50-51"
 ]
 example = [
-"The quick fox jumps over the dog brown and lazy.",
-"For breakfast I ate the apple sweet.",
-"Glistens the dew upon the morning grass. (Normally: The dew glistens upon the morning grass) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))",
-"She looked at the sky dark and menacing. (Normally: She looked at the dark and menacing sky) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))",
-"Troubles, everybody's got. (Normally: Everybody's got troubles) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))"
+    "The quick fox jumps over the dog brown and lazy.",
+    "For breakfast I ate the apple sweet.",
+    "Glistens the dew upon the morning grass. (Normally: The dew glistens upon the morning grass) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))",
+    "She looked at the sky dark and menacing. (Normally: She looked at the dark and menacing sky) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))",
+    "Troubles, everybody's got. (Normally: Everybody's got troubles) ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anastrophe.htm))"
 ]
 
 [scheme.changes.parenthesis]
@@ -152,27 +156,28 @@ Or my dear Majesty your queen here, think...?
 --Shakespeare, Hamlet 2.2.131-35"""
 ]
 example = [
-"The fox (the quick one) jumped over the lazy dog.",
-"Billy-bob, a great singer, was not a good dancer. (Wikipedia)",
-"A dog (not a cat) is an animal that barks. (Wikipedia)",
-"My umbrella (which is somewhat broken) can still shield the two of us from the rain. (Wikipedia)",
-"Please, Gerald, come here! (Wikipedia)"
+    "The fox (the quick one) jumped over the lazy dog.",
+    "Billy-bob, a great singer, was not a good dancer. (Wikipedia)",
+    "A dog (not a cat) is an animal that barks. (Wikipedia)",
+    "My umbrella (which is somewhat broken) can still shield the two of us from the rain. (Wikipedia)",
+    "Please, Gerald, come here! (Wikipedia)"
 ]
 
 [scheme.changes.hyperbaton]
 name = "Hyperbaton"
 similar_to = "Anastrophe"
 opposite_of = ""
-description = ["Pushing or pulling a word where it is not expected.",
-               "A figure of speech in which a phrase is made discontinuous by the insertion of other words. In modern usage, the term is also used more generally for figures of speech that transpose sentences' natural word order, and it is also called an anastrophe. ([Wikipedia](https://en.wikipedia.org/wiki/Hyperbaton))",
-               "An inversion of normal word order. A generic term for a variety of figures involving transposition, it is sometimes synonymous with anastrophe or adding a word or thought to a sentence that is already semantically complete, thus drawing emphasis to the addition. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/H/hyperbaton.htm))"
+description = [
+    "Pushing or pulling a word where it is not expected.",
+    "A figure of speech in which a phrase is made discontinuous by the insertion of other words. In modern usage, the term is also used more generally for figures of speech that transpose sentences' natural word order, and it is also called an anastrophe. ([Wikipedia](https://en.wikipedia.org/wiki/Hyperbaton))",
+    "An inversion of normal word order. A generic term for a variety of figures involving transposition, it is sometimes synonymous with anastrophe or adding a word or thought to a sentence that is already semantically complete, thus drawing emphasis to the addition. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/H/hyperbaton.htm))"
                
 ]
 quote = [
-"Object there was none. Passion there was none. --Edgar Allan Poe, The Tell-Tale Heart",
-"Bloody thou art; bloody will be thy end --William Shakespeare in Richard III, 4.4, 198",
-"Backward ran sentences until reeled the mind. --Wolcott Gibbs's 1936 parody of Time magazine",
-"Adriana asks regarding men in Shakespeare's Comedy of Errors: Why should their liberty than ours be more? (Silva Rhetorica)"
+    "Object there was none. Passion there was none. --Edgar Allan Poe, The Tell-Tale Heart",
+    "Bloody thou art; bloody will be thy end --William Shakespeare in Richard III, 4.4, 198",
+    "Backward ran sentences until reeled the mind. --Wolcott Gibbs's 1936 parody of Time magazine",
+    "Adriana asks regarding men in Shakespeare's Comedy of Errors: Why should their liberty than ours be more? (Silva Rhetorica)"
 ]
 example = []
 
@@ -185,9 +190,9 @@ description = [
     "One type of scheme of rhetorical figures of speech which is used to refer to the use of tense, form, or person for a grammatically incorrect counterpart. ([Wikipedia](https://en.wikipedia.org/wiki/Enallage))"
 ]
 wikipedia = [
-"Is there not wars? Is there not employment? --2nd Henry IV, I, ii",
-"The idols are broke in the temple of Baal. --Byron",
-"Think different. --Apple slogan"
+    "Is there not wars? Is there not employment? --2nd Henry IV, I, ii",
+    "The idols are broke in the temple of Baal. --Byron",
+    "Think different. --Apple slogan"
 ]
 example = []
 silva_rhetoricae = []
@@ -223,12 +228,12 @@ quote = [
     "If on the first, how **heinous** e'er it be, To win thy after-love I pardon thee. --Shakespeare, Richard II 5.3.34-35"
 ]
 example = [
-"a-whole-nother kettle of fish (Wikipedia)",
-"un-*****-believable (Wikipedia)",
-"Turn off the light --> Turn the light off (Wikipedia)",
-"Come back tomorrow --> Come on back tomorrow (Wikipedia)",
-"This is the place where Christ will come, as will here appear after. (Silva Rhetorica)",
-"He shall be punished, what man soever offendeth. (Silva Rhetorica)"
+    "a-whole-nother kettle of fish (Wikipedia)",
+    "un-*****-believable (Wikipedia)",
+    "Turn off the light --> Turn the light off (Wikipedia)",
+    "Come back tomorrow --> Come on back tomorrow (Wikipedia)",
+    "This is the place where Christ will come, as will here appear after. (Silva Rhetorica)",
+    "He shall be punished, what man soever offendeth. (Silva Rhetorica)"
 ]
 
 [scheme.omission]
@@ -245,7 +250,7 @@ quote = [
     "The average person thinks he isn't. -–Father Larry Lorenzoni"
 ]
 example = [
-"John forgives Mary and Mary, John. (Silva Rhetorica)"
+    "John forgives Mary and Mary, John. (Silva Rhetorica)"
 ]
 
 [scheme.omission.aposiopesis]
@@ -276,13 +281,13 @@ description = [
 ]
 quote = []
 example = [
-"If you think I'm going to sit here and take your insults... (Wikipedia)",
-"When life gives you lemons... (Wikipedia)",
-"If they came to hear me beg... (Wikipedia)",
-"When the going gets tough... (Wikipedia)",
-"If you can't stand the heat... (Wikipedia)",
-"If you think I'm going to sit here and take your insults... (Silva Rhetorica)",
-"When you decide to promote me to manager—when you see more clearly what will benefit this corporation—I will be at your service. (Silva Rhetorica)"
+    "If you think I'm going to sit here and take your insults... (Wikipedia)",
+    "When life gives you lemons... (Wikipedia)",
+    "If they came to hear me beg... (Wikipedia)",
+    "When the going gets tough... (Wikipedia)",
+    "If you can't stand the heat... (Wikipedia)",
+    "If you think I'm going to sit here and take your insults... (Silva Rhetorica)",
+    "When you decide to promote me to manager—when you see more clearly what will benefit this corporation—I will be at your service. (Silva Rhetorica)"
 ]
 
 [scheme.omission.asyndeton]
@@ -309,10 +314,10 @@ description = [
     "The absence of conjunctions between single words. Compare asyndeton. The effect of brachylogia is a broken, hurried delivery. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/B/brachylogia.htm)"
 ]
 quote = [
-"Love, hate, jealousy, frenzy, fury drew him from pity --Angel Day"
+    "Love, hate, jealousy, frenzy, fury drew him from pity --Angel Day"
 ]
 example = [
-"Phillip! Rise! Eat! Leave! (Silva Rhetorica)",
+    "Phillip! Rise! Eat! Leave! (Silva Rhetorica)",
 ]
 
 [scheme.repetition_of_words]
@@ -327,13 +332,13 @@ description = [
     "Repeating a word, but in a different form. Using a cognate of a given word in close proximity. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/polyptoton.htm)",
     "The stylistic scheme in which words derived from the same root are repeated (such as 'strong' and 'strength'). ([Wikipedia])(https://en.wikipedia.org/wiki/Polyptoton)"
 quote = [
-"Judge not, that ye be not judged --Matthew 7:1",
-"Absolute power corrupts absolutely. --Lord Acton",
-"Who shall watch the watchmen themselves? --Juvenal",
-"With eager feeding food doth choke the feeder. --John of Gaunt in Shakespeare's Richard II 2.1.37"
+    "Judge not, that ye be not judged --Matthew 7:1",
+    "Absolute power corrupts absolutely. --Lord Acton",
+    "Who shall watch the watchmen themselves? --Juvenal",
+    "With eager feeding food doth choke the feeder. --John of Gaunt in Shakespeare's Richard II 2.1.37"
 ]
 example = [
-"The jumpy fox jumped over the dog. "
+    "The jumpy fox jumped over the dog. "
 ]
 
 [scheme.repetition_of_words.anaphora]
@@ -345,14 +350,14 @@ description = [
     "A rhetorical device that consists of repeating a sequence of words at the beginnings of neighboring clauses, thereby lending them emphasis. ([Wikipedia])(https://en.wikipedia.org/wiki/Anaphora_(rhetoric))"
 ]
 quote = [
-"For want of a nail the shoe was lost. For want of a shoe the horse was lost. For want of a horse the rider was lost. [...]",
-"Mad world! Mad kings! Mad composition! --William Shakespeare, King John, II, i",
-"The voice of the Lord flashes forth flames of fire. The voice of the Lord shakes the wilderness; the Lord shakes the wilderness of Kadesh. --Psalm 29:3-9",
-"This royal throne of kings, this sceptred isle, / This earth of majesty, this seat of Mars, / This other Eden, demi-paradise, --John of Gaunt in Shakespeare's Richard II (2.1.40-51; 57-60)"
+    "For want of a nail the shoe was lost. For want of a shoe the horse was lost. For want of a horse the rider was lost. [...]",
+    "Mad world! Mad kings! Mad composition! --William Shakespeare, King John, II, i",
+    "The voice of the Lord flashes forth flames of fire. The voice of the Lord shakes the wilderness; the Lord shakes the wilderness of Kadesh. --Psalm 29:3-9",
+    "This royal throne of kings, this sceptred isle, / This earth of majesty, this seat of Mars, / This other Eden, demi-paradise, --John of Gaunt in Shakespeare's Richard II (2.1.40-51; 57-60)"
 ]
 example = [
-"Today I ate breakfast, today I went to work, today I relaxed.",
-"Pizza in the morning, pizza at lunchtime, pizza at dinnertime."
+    "Today I ate breakfast, today I went to work, today I relaxed.",
+    "Pizza in the morning, pizza at lunchtime, pizza at dinnertime."
 ]
 
 [scheme.repetition_of_words.epistrophe]
@@ -364,13 +369,13 @@ description = [
     "The repetition of the same word or words at the end of successive phrases, clauses or sentences. ([Wikipedia])(https://en.wikipedia.org/wiki/Epistrophe)"
 ]
 quote = [
-"Where affections bear rule, their reason is subdued, honesty is subdued, good will is subdued, and all things else that withstand evil, for ever are subdued. --Thomas Wilson",
-"...this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth. --Abraham Lincoln in the Gettysburg Address",
-"What lies behind us and what lies before us are tiny compared to what lies within us. --Ralph Waldo Emerson"
+    "Where affections bear rule, their reason is subdued, honesty is subdued, good will is subdued, and all things else that withstand evil, for ever are subdued. --Thomas Wilson",
+    "...this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth. --Abraham Lincoln in the Gettysburg Address",
+    "What lies behind us and what lies before us are tiny compared to what lies within us. --Ralph Waldo Emerson"
 ]
 example = [
-"The apple was bad, the pear was bad, it was all bad.",
-"We are born to sorrow, pass our time in sorrow, end our days in sorrow. (Silva Rhetoricae)"
+    "The apple was bad, the pear was bad, it was all bad.",
+    "We are born to sorrow, pass our time in sorrow, end our days in sorrow. (Silva Rhetoricae)"
 ]
 
 [scheme.repetition_of_words.epanalepsis]
@@ -382,11 +387,11 @@ description = [
     "The repetition of the initial part of a clause or sentence at the end of that same clause or sentence. ([Wikipedia])(https://en.wikipedia.org/wiki/Epanalepsis)"
 ]
 quote = [
-"History is ours and people make history. --Salvador Allende",
-"Once more unto the breach, dear friends, once more; --Shakespeare, Henry V, 3.1.1",
-"In times like these, it is helpful to remember that there have always been times like these. --Paul Harvey",
-"Believe not all you can hear, tell not all you believe. --Native American proverb",
-"To each the boulders that have fallen to each. --Robert Frost, Mending Wall"
+    "History is ours and people make history. --Salvador Allende",
+    "Once more unto the breach, dear friends, once more; --Shakespeare, Henry V, 3.1.1",
+    "In times like these, it is helpful to remember that there have always been times like these. --Paul Harvey",
+    "Believe not all you can hear, tell not all you believe. --Native American proverb",
+    "To each the boulders that have fallen to each. --Robert Frost, Mending Wall"
 ]
 example = [
     "The king is dead; long live the king! (Wikipedia)"
@@ -401,12 +406,12 @@ description = [
     "The repetition of the last word of a preceding clause. The word is used at the end of a sentence and then used again at the beginning of the next sentence. ([Wikipedia])(https://en.wikipedia.org/wiki/Anadiplosis)"
 ]
 quote = [
-"Catch for us foxes,/ foxes, little ones, which ruin vineyards,/ and our vineyards [are] in bloom. —Song of Songs 2:15",
-"Fear leads to anger. Anger leads to hate. Hate leads to suffering. --Yoda, Star Wars",
-"Queeg: 'Aboard my ship, excellent performance is standard. Standard performance is sub-standard. Sub-standard performance is not permitted to exist.' --Herman Wouk, The Caine Mutiny."
+    "Catch for us foxes,/ foxes, little ones, which ruin vineyards,/ and our vineyards [are] in bloom. —Song of Songs 2:15",
+    "Fear leads to anger. Anger leads to hate. Hate leads to suffering. --Yoda, Star Wars",
+    "Queeg: 'Aboard my ship, excellent performance is standard. Standard performance is sub-standard. Sub-standard performance is not permitted to exist.' --Herman Wouk, The Caine Mutiny."
 ]
 example = [
-"The fox jumped over the lazy dog. The lazy dog kept sleeping on the grass. The grass waved in the breeze."
+    "The fox jumped over the lazy dog. The lazy dog kept sleeping on the grass. The grass waved in the breeze."
 ]
 
 [scheme.repetition_of_words.antimetabole]
@@ -418,15 +423,15 @@ description = [
     "The repetition of words in successive clauses, but in transposed order; for example, 'I know what I like, and I like what I know'. ([Wikipedia])(https://en.wikipedia.org/wiki/Antimetabole)"
 ]
 quote = [
-"Eat to live, not live to eat. --attributed to Socrates",
-"Ask not what your country can do for you; ask what you can do for your country. --John F. Kennedy",
-"Integrity without knowledge is weak and useless, and knowledge without integrity is dangerous and dreadful. --Samuel Johnson, Rasselas",
-"Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter! --Isaiah 5:20"
+    "Eat to live, not live to eat. --attributed to Socrates",
+    "Ask not what your country can do for you; ask what you can do for your country. --John F. Kennedy",
+    "Integrity without knowledge is weak and useless, and knowledge without integrity is dangerous and dreadful. --Samuel Johnson, Rasselas",
+    "Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter! --Isaiah 5:20"
 ]
 example = [
-"One for all, all for one (Wikipedia)",
-"When the going gets tough, the tough get going. (Silva Rhetoricae)",
-"You can take the gorilla out of the jungle, but you can't take the jungle out of the gorilla. (Silva Rhetoricae)"
+    "One for all, all for one (Wikipedia)",
+    "When the going gets tough, the tough get going. (Silva Rhetoricae)",
+    "You can take the gorilla out of the jungle, but you can't take the jungle out of the gorilla. (Silva Rhetoricae)"
 ]
 
 [scheme.repetition_of_words.polysyndeton]
@@ -438,10 +443,10 @@ description = [
     "The deliberate insertion of conjunctions into a sentence for the purpose of 'slow[ing] up the rhythm of the prose' so as to produce 'an impressively solemn note.' ([Wikipedia])(https://en.wikipedia.org/wiki/Polysyndeton)"
 ]
 quote = [
-"And God said, 'Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind.' And it was so. And God made the beast of the earth after his kind and cattle after their kind, and everything that creeps upon the earth to its kind. And God saw that it was good. --Book of Genesis (1:24–25)",
-"If there be cords, or knives, or poison, or fire, or suffocating streams, I'll not endure it --Othello 3.3.443–5",
-"Out on the road the pilgrims sank down and fell over and died and the bleak and shrouded earth went trundling past the sun and returned again as trackless and as unremarked as the path of any nameless sisterworld in the ancient dark beyond. --Cormac McCarthy,The Road, 2006",
-"Or if a soul touch any unclean thing, whether it be a carcass of an unclean beast, or a carcass of unclean cattle, or the carcass of unclean creeping things, and if it be hidden from him; he also shall be unclean, and guilty. --Leviticus 5:2"
+    "And God said, 'Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind.' And it was so. And God made the beast of the earth after his kind and cattle after their kind, and everything that creeps upon the earth to its kind. And God saw that it was good. --Book of Genesis (1:24–25)",
+    "If there be cords, or knives, or poison, or fire, or suffocating streams, I'll not endure it --Othello 3.3.443–5",
+    "Out on the road the pilgrims sank down and fell over and died and the bleak and shrouded earth went trundling past the sun and returned again as trackless and as unremarked as the path of any nameless sisterworld in the ancient dark beyond. --Cormac McCarthy,The Road, 2006",
+    "Or if a soul touch any unclean thing, whether it be a carcass of an unclean beast, or a carcass of unclean cattle, or the carcass of unclean creeping things, and if it be hidden from him; he also shall be unclean, and guilty. --Leviticus 5:2"
 ]
 example = []
 
@@ -473,12 +478,12 @@ description = [
     "A resemblance in the sounds of words/syllables either between their vowels (e.g., meat, bean) or between their consonants (e.g., keep, cape). ([Wikipedia])(https://en.wikipedia.org/wiki/Assonance)"
 ]
 quote = [
-"on a proud round cloud in white high night --E. E. Cummings, if a cheerfulest Elephantangelchild should sit"
+    "on a proud round cloud in white high night --E. E. Cummings, if a cheerfulest Elephantangelchild should sit"
 ]
 example = [
-"The squeaky wheel gets the grease. (Wikipedia)",
-"The early bird catches the worm. (Wikipedia)",
-"The seargant asked him to bomb the lawn with hotpots (Silva Rhetoricae)"
+    "The squeaky wheel gets the grease. (Wikipedia)",
+    "The early bird catches the worm. (Wikipedia)",
+    "The seargant asked him to bomb the lawn with hotpots (Silva Rhetoricae)"
 ]
 
 [trope]
@@ -500,9 +505,9 @@ description = [
     "An exclamatory figure of speech. It occurs when a speaker breaks off from addressing the audience (e.g., in a play) and directs speech to a third party such as an opposing litigant or some other individual, sometimes absent from the scene. Often the addressee is a personified abstract quality or inanimate object. ([Wikipedia])(https://en.wikipedia.org/wiki/Apostrophe_(figure_of_speech))"
 ]
 quote = [
-"O death, where is thy sting? O grave, where is thy victory? --1 Corinthians 15:55, Paul the Apostle",
-"O happy dagger! This is thy sheath; there rest, and let me die. --Romeo and Juliet, act 5, scene 3, 169–170.",
-"O My friends, there is no friend. --Montaigne, originally attributed to Aristotle"
+    "O death, where is thy sting? O grave, where is thy victory? --1 Corinthians 15:55, Paul the Apostle",
+    "O happy dagger! This is thy sheath; there rest, and let me die. --Romeo and Juliet, act 5, scene 3, 169–170.",
+    "O My friends, there is no friend. --Montaigne, originally attributed to Aristotle"
 ]
 example = []
 
@@ -514,8 +519,8 @@ description = [
     "Reference to abstractions or inanimate objects as though they had human qualities or abilities ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/personification.htm)"
 ]
 quote = [
-"O beware, my lord, of jealousy! / It is the green-ey'd monster which doth mock / The meat it feeds on. --Iago in Shakespeare's Othello 3.3.165-67",
-"The insatiable hunger for imagination preys upon human life --Samuel Johnson"
+    "O beware, my lord, of jealousy! / It is the green-ey'd monster which doth mock / The meat it feeds on. --Iago in Shakespeare's Othello 3.3.165-67",
+    "The insatiable hunger for imagination preys upon human life --Samuel Johnson"
 ]
 example = []
 
@@ -529,11 +534,11 @@ description = [
 ]
 quote = []
 example = [
-"Referring to a sword as a 'blade' (Wikipedia)",
-"'carbon' for the entire basket of greenhouse gases, as a shorthand derived from carbon dioxide, the most common such gas (Wikipedia)",
-"'barrel' for a barrel of oil (Wikipedia)",
-"The rustler bragged he'd absconded with five hundred head of longhorns. (Silva Rhetoricae)",
-"Listen, you've got to come take a look at my new set of wheels. (Silva Rhetoricae)"
+    "Referring to a sword as a 'blade' (Wikipedia)",
+    "'carbon' for the entire basket of greenhouse gases, as a shorthand derived from carbon dioxide, the most common such gas (Wikipedia)",
+    "'barrel' for a barrel of oil (Wikipedia)",
+    "The rustler bragged he'd absconded with five hundred head of longhorns. (Silva Rhetoricae)",
+    "Listen, you've got to come take a look at my new set of wheels. (Silva Rhetoricae)"
 ]
 
 [trope.reference.metaphor]
@@ -545,8 +550,8 @@ description = [
     "A figure of speech that, for rhetorical effect, directly refers to one thing by mentioning another. It may provide (or obscure) clarity or identify hidden similarities between two different ideas. ([Wikipedia])(https://en.wikipedia.org/wiki/Metaphor)"
 ]
 quote = [
-"No man is an island --John Donne",
-"For ever since that time you went away I've been a rabbit burrowed in the wood --Maurice Sceve"
+    "No man is an island --John Donne",
+    "For ever since that time you went away I've been a rabbit burrowed in the wood --Maurice Sceve"
 ]
 example = [
     "Life is a beach. (Silva Rhetoricae)",
@@ -562,13 +567,13 @@ description = [
     "A figure of speech that directly compares two things by highlighting the similarities between two things using comparison words such as 'like', 'as', 'so', or 'than'. ([Wikipedia])(https://en.wikipedia.org/wiki/Simile)"
 ]
 quote = [
-"My love is like a red, red rose --Robert Burns",
-"The day we passed together for a while / Seemed a bright fire on a winter's night --Maurice Sceve",
-"You are like a hurricane: there's calm in your eye, but I'm getting blown away --Neil Young"
+    "My love is like a red, red rose --Robert Burns",
+    "The day we passed together for a while / Seemed a bright fire on a winter's night --Maurice Sceve",
+    "You are like a hurricane: there's calm in your eye, but I'm getting blown away --Neil Young"
 ]
 example = [
-"Her hair was like gravy, running brown off her head and clumping up on her shoulders. (Silva Rhetoricae)",
-"The air-lifted rhinoceros hit the ground like a garbage bag filled with split pea soup. (Silva Rhetoricae)"
+    "Her hair was like gravy, running brown off her head and clumping up on her shoulders. (Silva Rhetoricae)",
+    "The air-lifted rhinoceros hit the ground like a garbage bag filled with split pea soup. (Silva Rhetoricae)"
 ]
 
 [trope.reference.metonymy]
@@ -582,12 +587,12 @@ description = [
 quote = [
 ]
 example = [
-"Referring to a human as a 'mortal' (Wikipedia)",
-"Referring to an old man as a 'grey beard' (Wikipedia)",
-"The pen is mightier than the sword (Silva Rhetoricae)",
-"We await word from the crown. (Silva Rhetoricae)",
-"I'm told he's gone so far as to giver her a diamond ring (Silva Rhetoricae)",
-"The IRS is auditing me? Great. All I need is a couple of suits arriving at my door. (Silva Rhetoricae)"
+    "Referring to a human as a 'mortal' (Wikipedia)",
+    "Referring to an old man as a 'grey beard' (Wikipedia)",
+    "The pen is mightier than the sword (Silva Rhetoricae)",
+    "We await word from the crown. (Silva Rhetoricae)",
+    "I'm told he's gone so far as to giver her a diamond ring (Silva Rhetoricae)",
+    "The IRS is auditing me? Great. All I need is a couple of suits arriving at my door. (Silva Rhetoricae)"
 ]
 
 [trope.wordplay]
@@ -602,13 +607,13 @@ description = [
     "The literary trope in which a single word or phrase is repeated, but in two different senses. ([Wikipedia])(https://en.wikipedia.org/wiki/Antanaclasis)"
 ]
 quote = [
-"Your argument is sound, nothing but sound. --Benjamin Franklin",
-"We must, indeed, all hang together, or assuredly we shall all hang separately --Various",
-"If you aren't fired with enthusiasm, you will be fired with enthusiasm. --Vince Lombardi"
+    "Your argument is sound, nothing but sound. --Benjamin Franklin",
+    "We must, indeed, all hang together, or assuredly we shall all hang separately --Various",
+    "If you aren't fired with enthusiasm, you will be fired with enthusiasm. --Vince Lombardi"
 ]
 example = [    
-"Time flies like an arrow; fruit flies like a banana (Wikipedia)",
-"While we live, let us live. (Silva Rhetoricae)"
+    "Time flies like an arrow; fruit flies like a banana (Wikipedia)",
+    "While we live, let us live. (Silva Rhetoricae)"
 ]
 
 [trope.wordplay.pun]
@@ -635,10 +640,10 @@ description = [
     "Figures of speech in which a single phrase or word joins different parts of a sentence. ([Wikipedia])(https://en.wikipedia.org/wiki/Zeugma_and_syllepsis)"
 ]
 quote = [
-"Lust conquered shame; audacity, fear; madness, reason. --Cicero",
-"Histories make men wise; poets, witty; the mathematics, subtle; natural philosophy, deep; moral, grave; logic and rhetoric, able to contend. --Francis Bacon",
-"Rend your heart, and not your garments. --Joel 2:13",
-"Fix the problem, not the blame. —Dave Weinbaum"
+    "Lust conquered shame; audacity, fear; madness, reason. --Cicero",
+    "Histories make men wise; poets, witty; the mathematics, subtle; natural philosophy, deep; moral, grave; logic and rhetoric, able to contend. --Francis Bacon",
+    "Rend your heart, and not your garments. --Joel 2:13",
+    "Fix the problem, not the blame. —Dave Weinbaum"
 ]
 example = []
 
@@ -653,7 +658,7 @@ description = [
 quote = []
 example = [
     "quack (duck), moo (cow), bark or woof (dog), roar (lion), meow/miaow or purr (cat), cluck (chicken) and baa (sheep) (Wikipedia)",
-"The buzzing of innumerable bees (Silva Rhetorica)"
+    "The buzzing of innumerable bees (Silva Rhetorica)"
 ]
 
 [trope.substitutions]
@@ -700,14 +705,14 @@ description = [
     "Using one part of speech as another, such as using a noun as a verb. ([Wikipedia])(https://en.wikipedia.org/wiki/Anthimeria)"
 ]
 quote = [
-"I'll unhair thy head. --Shakespeare, Antony and Cleopatra, II, v.",
-"The thunder would not peace at my bidding. --Shakespeare, King Lear, IV, vi.",
-"Me, dictionary-ing heavily, 'Where was the one they were watching?' --Ernest Hemingway, Green Hills of Africa"
+    "I'll unhair thy head. --Shakespeare, Antony and Cleopatra, II, v.",
+    "The thunder would not peace at my bidding. --Shakespeare, King Lear, IV, vi.",
+    "Me, dictionary-ing heavily, 'Where was the one they were watching?' --Ernest Hemingway, Green Hills of Africa"
 ]
 example = [
-"I've been Republicaned all I care to be this election year. (Silva Rhetoricae)",
-"Did you see the way those blockers defenced on that last play? (Silva Rhetoricae)",
-"Feel bad? Strike up some music and have a good sing. (Silva Rhetoricae)"
+    "I've been Republicaned all I care to be this election year. (Silva Rhetoricae)",
+    "Did you see the way those blockers defenced on that last play? (Silva Rhetoricae)",
+    "Feel bad? Strike up some music and have a good sing. (Silva Rhetoricae)"
 ]
 
 [trope.magnitude]
@@ -724,11 +729,11 @@ description = [
 quote = [
 ]
 example = [
-"He was so angry, I thought he was going to kill somebody. (Wikipedia)",
-"She had a thousand missed calls. (Wikipedia)",
-"I was so embarrassed, I wanted to die. (Wikipedia)",
-"She's as blind as a bat. (Wikipedia)"],
-"I've told you a million times not to exaggerate. (Silva Rhetoricae)"
+    "He was so angry, I thought he was going to kill somebody. (Wikipedia)",
+    "She had a thousand missed calls. (Wikipedia)",
+    "I was so embarrassed, I wanted to die. (Wikipedia)",
+    "She's as blind as a bat. (Wikipedia)"],
+    "I've told you a million times not to exaggerate. (Silva Rhetoricae)"
 ]
 
 [trope.magnitude.litotes]
@@ -740,13 +745,13 @@ description = [
     "A figure of speech and form of verbal irony in which understatement is used to emphasize a point by stating a negative to further affirm a positive, often incorporating double negatives for effect. ([Wikipedia])(https://en.wikipedia.org/wiki/Litotes)"
 ]
 quote = [
-"It isn't very serious. I have this tiny little tumor on the brain. --J.D. Salinger, The Catcher in the Rye"
+    "It isn't very serious. I have this tiny little tumor on the brain. --J.D. Salinger, The Catcher in the Rye"
 ]
 example = [
-"Running a marathon in under two hours is no small accomplishment. (Silva Rhetoricae)",
-"Not bad --> Good (Wikipedia)",
-"It's not my favourite --> I don't like it (Wikipedia)",
-"Not too shabby! --> Nice! (Wikipedia)"
+    "Running a marathon in under two hours is no small accomplishment. (Silva Rhetoricae)",
+    "Not bad --> Good (Wikipedia)",
+    "It's not my favourite --> I don't like it (Wikipedia)",
+    "Not too shabby! --> Nice! (Wikipedia)"
 ]
 
 [trope.magnitude.meiosis]
@@ -755,7 +760,7 @@ similar_to = ""
 opposite_of = ""
 description = [
     "Reference to something with a name disproportionately lesser than its nature (a kind of litotes). ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/M/meiosis.htm)",
-    "a euphemistic figure of speech that intentionally understates something or implies that it is lesser in significance or size than it really is. ([Wikipedia])(https://en.wikipedia.org/wiki/Meiosis_(figure_of_speech))"
+    "A euphemistic figure of speech that intentionally understates something or implies that it is lesser in significance or size than it really is. ([Wikipedia])(https://en.wikipedia.org/wiki/Meiosis_(figure_of_speech))"
 ]
 quote = [
     "Said of an amputated leg: 'It's just a flesh wound' --Monty Python and the Holy Grail"
@@ -773,73 +778,77 @@ name = "Inversion"
 name = "Paradox"
 similar_to = ""
 opposite_of = ""
-description = "An apparently contradictory statement that contains a measure of truth."
-wikipedia = [
-"The following sentence is true. The previous sentence is false."
+description = [
+    "A statement that is self-contradictory on the surface, yet seems to evoke a truth nonetheless. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/paradox.htm)",
+    "A logically self-contradictory statement or a statement that runs contrary to one's expectation. It is a statement that, despite apparently valid reasoning from true premises, leads to a seemingly self-contradictory or a logically unacceptable conclusion. ([Wikipedia])(https://en.wikipedia.org/wiki/Paradox)"
 ]
-example = []
-silva_rhetoricae = [
-"Whosoever loses his life, shall find it."
+quote = [
+]
+example = [
+    "The following sentence is true. The previous sentence is false. (Wikipedia)",
+    "Whosoever loses his life, shall find it. (Silva Rhetoricae)"
 ]
 
 [trope.inversion.oxymoron]
 name = "Oxymoron"
 similar_to = ""
 opposite_of = ""
-description = "Placing two ordinarily opposing terms adjacent to one another. A compressed paradox with a measure of truth."
-wikipedia = [
-"fiery ice",
-"cruel kindness",
-"bittersweet",
-"a wise fool",
-"pleasing pain",
-"noiseless sound"
+description = [
+    "Placing two ordinarily opposing terms adjacent to one another. A compressed paradox. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/O/oxymoron.htm)",
+    "A figure of speech that juxtaposes concepts with opposing meanings within a word or phrase that creates an ostensible self-contradiction. ([Wikipedia])(https://en.wikipedia.org/wiki/Oxymoron)"
 ]
-example = []
-silva_rhetoricae = [
-"... Yet from those flames / No light, but rather darkness visible / Served only to discover sights of woe. --Milton, Paradise Lost 1.62-64",
-"The Sounds of Silence"
+quote = [
+    "... Yet from those flames / No light, but rather darkness visible / Served only to discover sights of woe. --Milton, Paradise Lost 1.62-64"
+]
+example = [
+    "The Sounds of Silence (Silva Rhetoricae)",
+    "fiery ice, cruel kindness, bittersweet, a wise fool, pleasing pain, noiseless sound (Wikipedia)"
 ]
 
 [trope.inversion.rhetorical_question]
-name = "Rhetorical question"
+name = "Rhetorical question (erotema)"
 similar_to = ""
 opposite_of = ""
-description = "Asking a question for a purpose other than obtaining the information requested."
-wikipedia = [
-"Can't you do anything right?",
-"How do you hold a moonbeam in your hand?",
-"Is the sky blue?"
+description = [
+    "To affirm or deny a point strongly by asking it as a question. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/R/rhetorical%20questions.htm)",
+    "When the questioner does not expect a direct answer: in many cases it may be intended to start a discourse, or as a means of displaying or emphasize the speaker's or author's opinion on a topic. ([Wikipedia])(https://en.wikipedia.org/wiki/Rhetorical_question)"
 ]
-example = []
-silva_rhetoricae = []
+quote = [
+]
+example = [
+    "Can't you do anything right? (Wikipedia)",
+    "How do you hold a moonbeam in your hand? (Wikipedia)",
+    "Is the sky blue? (Wikipedia)"
+]
 
 [trope.inversion.sarcasm]
 name = "Ironic sarcasm"
 similar_to = ""
 opposite_of = ""
-description = "Irony that is bitter or mocking, usually with a verbal cue. Sarcasm is sometimes not ironic."
-wikipedia = [
-"My you're early! (After one arrives extremely late).",
-"What a fine artist you've become! (When meaning to express displeasure)."
+description = [
+    "Use of mockery, verbal taunts, or bitter irony. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/S/sarcasmus.htm)",
+    "The caustic use of words, often in a humorous way, to mock someone or something. ([Wikipedia])(https://en.wikipedia.org/wiki/Sarcasm)"
 ]
-example = []
-silva_rhetoricae = [
-"If you be the son of God, descend from the cross --Matt. 27"
+quote = [
+    "If you be the son of God, descend from the cross --Matt. 27"
+]
+example = [
+    "My you're early! (After one arrives extremely late). (Wikipedia)",
+    "What a fine artist you've become! (When meaning to express displeasure). (Wikipedia)"
 ]
 
 [trope.inversion.aporia]
 name = "Aporia"
 similar_to = ""
 opposite_of = ""
-description = "Deliberating with oneself as though in doubt over some matter; asking oneself (or rhetorically asking one's hearers) what is the best or appropriate way to approach something. (Silva Rhetoricae)"
-wikipedia = []
+description = [
+    "Deliberating with oneself as though in doubt over some matter; asking oneself (or rhetorically asking one's hearers) what is the best or appropriate way to approach something. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/aporia.htm)",
+    "A conundrum or state of puzzlement. In rhetoric, it is a declaration of doubt, made for rhetorical purpose and often feigned. ([Wikipedia])(https://en.wikipedia.org/wiki/Aporia)"
+]
+quote = [
+    "I am at no loss for information about you and your family; but I am at a loss where to begin. Shall I relate how your father Tromes was a slave in the house of Elpias, who kept an elementary school near the Temple of Theseus, and how he wore shackles on his legs and a timber collar round his neck? Or how your mother practised daylight nuptials in an outhouse next door to Heros the bone-setter, and so brought you up to act in tableaux vivants and to excel in minor parts on the stage? --Demosthenes On The Crown, 129"
+]
 example = [
-"Where to begin? Well I support it all started when..."
+    "Where to begin? Well I support it all started when...",
+    "Where shall I begin to describe her wisdom? In her knowledge of facts? In her ability to synthesize diverse matters? In her capacity to articulate complex ideas simply? (Silva Rhetoricae)"
 ]
-silva_rhetoricae = [
-"Where shall I begin to describe her wisdom? In her knowledge of facts? In her ability to synthesize diverse matters? In her capacity to articulate complex ideas simply?"
-]
-
-
-
