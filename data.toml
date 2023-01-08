@@ -176,30 +176,55 @@ example = []
 name = "Enallage"
 similar_to = ""
 opposite_of = ""
-description = "Intentionally misuse grammar."
+description = [
+    "The use of incorrect grammar whether to achieve a parallel structure or give a particular impression.",
+    "One type of scheme of rhetorical figures of speech which is used to refer to the use of tense, form, or person for a grammatically incorrect counterpart. ([Wikipedia](https://en.wikipedia.org/wiki/Enallage))"
+]
 wikipedia = [
 "Is there not wars? Is there not employment? --2nd Henry IV, I, ii",
-"The idols are broke in the temple of Baal. --Byron"
+"The idols are broke in the temple of Baal. --Byron",
+"Think different. --Apple slogan"
 ]
 example = []
 silva_rhetoricae = []
+
+[scheme.changes.hypallage]
+name = "Hypallage"
+similar_to = ""
+opposite_of = ""
+description = [
+    "A figure of speech in which the syntactic relationship between two terms is interchanged, or more frequently a modifier is syntactically linked to an item other than the one that it modifies semantically. ([Wikipedia](https://en.wikipedia.org/wiki/Hypallage))",
+    "Shifting the application of words. Mixing the order of which words should correspond with which others.  ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/H/hypallage.htm))"
+]
+quote = [
+    "The eye of man hath not heard, the ear of man hath not seen, man's hand is not able to taste, his tongue to conceive, nor his heart to report, what my dream was. --Shakespeare, A Midsummer Night's Dream 4.1.211-214"
+]
+example = [
+    "Come stay with me and dine not. (Silva Rhetorica)",
+    "Restless night (The night was not restless, but the person who was awake through it was.) (Wikipedia)",
+    "Happy morning (Mornings have no feelings, but the people who awaken to them do.) (Wikipedia)",
+    "Flying over the sleeping countryside (The countryside is not sleeping, the people living there are.) (Wikipedia)"
+]
 
 [scheme.changes.tmesis]
 name = "Tmesis"
 similar_to = "Parenthesis"
 opposite_of = ""
-description = "Splitting a word in two with a word or space."
-wikipedia = [
-"a-whole-nother kettle of fish",
-"un-*****-believable",
-"Turn off the light --> Turn the light off",
-"Come back tomorrow --> Come on back tomorrow"
+description = [
+    "Using one word to split another one in two.",
+    "A word compound that is divided into two parts, with another word infixed between the parts, thus constituting a separate word compound. ([Wikipedia](https://en.wikipedia.org/wiki/Tmesis))",
+    "Interjecting a word or phrase between parts of a compound word or between syllables of a word. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/T/tmesis.htm))"
 ]
-example = []
-silva_rhetoricae = [
-"This is the place where Christ will come, as will here appear after.",
-"He shall be punished, what man soever offendeth.",
-"If on the first, how heinous e'er it be, To win thy after-love I pardon thee. --Shakespeare, Richard II 5.3.34-35"
+quote = [
+    "If on the first, how **heinous** e'er it be, To win thy after-love I pardon thee. --Shakespeare, Richard II 5.3.34-35"
+]
+example = [
+"a-whole-nother kettle of fish (Wikipedia)",
+"un-*****-believable (Wikipedia)",
+"Turn off the light --> Turn the light off (Wikipedia)",
+"Come back tomorrow --> Come on back tomorrow (Wikipedia)",
+"This is the place where Christ will come, as will here appear after. (Silva Rhetorica)",
+"He shall be punished, what man soever offendeth. (Silva Rhetorica)"
 ]
 
 [scheme.omission]
@@ -209,58 +234,68 @@ name = "Omission"
 name = "Ellipsis"
 similar_to = ""
 opposite_of = ""
-description = "Omission of a word or words readily implied by context."
-wikipedia = []
-example = []
-silva_rhetoricae = [
-"The average person thinks he isn't. -–Father Larry Lorenzoni",
-"John forgives Mary and Mary, John."
+description = [
+    "Omission of a word or short phrase easily understood in context. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/E/ellipsis.htm)"
+]
+quote = [
+    "The average person thinks he isn't. -–Father Larry Lorenzoni"
+]
+example = [
+"John forgives Mary and Mary, John. (Silva Rhetorica)"
 ]
 
 [scheme.omission.aposiopesis]
 name = "Aposiopesis"
 similar_to = "Anapodoton"
 opposite_of = ""
-description = "Breaking off as if unable to continue or overcome with emotion."
-wikipedia = [
-"Get out, or else...!",
-"You whom, I...! But it is better to settle the agitated waves."
+description = [
+    "Breaking off suddenly in the middle of speaking, usually to portray being overcome with emotion. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/aposiopesis.htm)",
+    "A figure of speech wherein a sentence is deliberately broken off and left unfinished, the ending to be supplied by the imagination, giving an impression of unwillingness or inability to continue. ([Wikipedia](https://en.wikipedia.org/wiki/Aposiopesis))"
 ]
-example = ["The quick fox jumped over the lazy dog and... I can't describe it."]
-silva_rhetoricae = ["O judgment! thou art fled to brutish beasts, / And men have lost their reason. Bear with me, / My heart is in the coffin there with Caesar, / And I must pause till it come back to me. --Shakespeare, Julius Caesar 3.2.104-107"]
+quote = [
+    "O judgment! thou art fled to brutish beasts, / And men have lost their reason. Bear with me, / My heart is in the coffin there with Caesar, / And I *must pause* till it come back to me. --Shakespeare, Julius Caesar 3.2.104-107"
+]
+example = ["The quick fox jumped over the lazy dog and... I can't describe it.",
+    "The quick fox jumped over the lazy dog and... I can't describe it.",
+    "Get out, or else...! (Wikipedia)",
+    "You whom, I...! But it is better to settle the agitated waves. (Wikipedia)"
+    ]
 
 [scheme.omission.anapodoton]
 name = "Anapodoton"
 similar_to = "Aposiopesis"
 opposite_of = ""
-description = "Breaking off a sentence in order to let the reader reach the implication itself."
-wikipedia = [
-"If you think I'm going to sit here and take your insults...",
-"When life gives you lemons...",
-"If they came to hear me beg...",
-"When the going gets tough...",
-"If you can’t stand the heat..."
+description = [
+    "Starting with a subordinate clause (ie: if ..., when ...) but stopping there because the implication is already clear.",
+    "A figure in which a main clause is suggested by the introduction of a subordinate clause, but that main clause never occurs. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/anapodoton.htm)",
+    "A rhetorical device related to the anacoluthon; both involve a thought being interrupted or discontinued before it is fully expressed. ([Wikipedia](https://en.wikipedia.org/wiki/Anapodoton))"
 ]
-example = []
-silva_rhetoricae = [
-"If you think I'm going to sit here and take your insults...",
-"When you decide to promote me to manager—when you see more clearly what will benefit this corporation—I will be at your service."
+quote = []
+example = [
+"If you think I'm going to sit here and take your insults... (Wikipedia)",
+"When life gives you lemons... (Wikipedia)",
+"If they came to hear me beg... (Wikipedia)",
+"When the going gets tough... (Wikipedia)",
+"If you can't stand the heat... (Wikipedia)",
+"If you think I'm going to sit here and take your insults... (Silva Rhetorica)",
+"When you decide to promote me to manager—when you see more clearly what will benefit this corporation—I will be at your service. (Silva Rhetorica)"
 ]
 
 [scheme.omission.asyndeton]
 name = "Asyndeton"
 similar_to = "Brachylogia"
 opposite_of = ""
-description = "Omission of conjunction between a series of clauses to create speed and brevity."
+description = [
+    "Omission of conjunction between a series of clauses to create speed and brevity.",
+    "The omission of conjunctions between clauses, often resulting in a hurried rhythm or vehement effect. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/A/asyndeton.htm)",
+    "A literary scheme in which one or several conjunctions are deliberately omitted from a series of related clauses. ([Wikipedia](https://en.wikipedia.org/wiki/Asyndeton))"
 wikipedia = [
-"Quickly, resolutely, he strode into the bank.",
-"...and that government of the people, by the people, for the people shall not perish from the earth. --Abraham Lincoln, Gettysburg Address",
-"A parson or what looked like one was laboring over the crest of the hill and coming toward them with one hand raised in blessing, greeting, fending flies. --Cormac McCarthy, Outer Dark, 1968"
+    "...and that government of the people, by the people, for the people shall not perish from the earth. --Abraham Lincoln, Gettysburg Address",
+    "A parson or what looked like one was laboring over the crest of the hill and coming toward them with one hand raised in blessing, greeting, fending flies. --Cormac McCarthy, Outer Dark, 1968"
 ]
 example = [
-"Quick, agile, graceful, the fox jumped over the dog."
+    "Quickly, resolutely, he strode into the bank. (Wikipedia)"
 ]
-silva_rhetoricae = []
 
 [scheme.omission.brachylogia]
 name = "Brachylogia"
