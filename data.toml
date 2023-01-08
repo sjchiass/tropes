@@ -1,5 +1,9 @@
 [scheme]
 name = "Scheme"
+description = [
+    "A type of figure of speech that relies on the structure of the sentence, unlike the trope, which plays with the meanings of words. ([Wikipedia])(https://en.wikipedia.org/wiki/Scheme_(linguistics))",
+    "An artful deviation from the ordinary arrangement of words.  ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/Schemes%20and%20Tropes.htm)"
+]
 
 [scheme.balance]
 name = "Balance"
@@ -479,6 +483,10 @@ example = [
 
 [trope]
 name = "Trope"
+description = [
+    "The use of figurative language, via word, phrase or an image, for artistic effect such as using a figure of speech. The word has also come to be used for describing commonly recurring or overused literary and rhetorical devices, motifs or clichés in creative works. ([Wikipedia])(https://en.wikipedia.org/wiki/Trope_(literature))",
+    "An artful deviation from the ordinary or principal signification of a word. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/Schemes%20and%20Tropes.htm)"
+]
 
 [trope.reference]
 name = "Reference"
@@ -638,11 +646,14 @@ example = []
 name = "Onomatopoeia"
 similar_to = ""
 opposite_of = ""
-description = "Use of words whose sound correspond with their semantic value."
-wikipedia = []
-example = []
-silva_rhetoricae = [
-"The buzzing of innumerable bees"
+description = [
+    "Using or inventing a word whose sound imitates that which it names (the union of phonetics and semantics). ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/O/onomatopoeia.htm)",
+    "The process of creating a word that phonetically imitates, resembles, or suggests the sound that it describes. ([Wikipedia])(https://en.wikipedia.org/wiki/Onomatopoeia)"
+]
+quote = []
+example = [
+    "quack (duck), moo (cow), bark or woof (dog), roar (lion), meow/miaow or purr (cat), cluck (chicken) and baa (sheep) (Wikipedia)",
+"The buzzing of innumerable bees (Silva Rhetorica)"
 ]
 
 [trope.substitutions]
@@ -652,30 +663,51 @@ name = "Substitutions"
 name = "Periphrasis"
 similar_to = ""
 opposite_of = ""
-description = "Substitution of a descriptive word or phrase for a proper name or of a proper name for a quality associated with the name."
-wikipedia = []
-example = []
-silva_rhetoricae = [
-"In the TV show 'Dinosaurs' the infant dino called his father, 'Not-the-Mama.'",
-"He's no Fabio to look at; but then, he's no Woody Allen, either.",
-"Said of Aristotle: 'The prince of Peripatetics' --Angel Day"
+description = [
+    "The substitution of a descriptive word or phrase for a proper name (a species of circumlocution); or, conversely, the use of a proper name as a shorthand to stand for qualities associated with it. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/periphrasis.htm)"
+]
+quote = [
+    "Said of Aristotle: 'The prince of Peripatetics' --Angel Day"
+]
+example = [
+    "In the TV show 'Dinosaurs' the infant dino called his father, 'Not-the-Mama.' (Silva Rhetoricae)",
+    "He's no Fabio to look at; but then, he's no Woody Allen, either. (Silva Rhetoricae)"
+]
+
+[trope.substitutions.circumlocution]
+name = "Circumlocution"
+similar_to = ""
+opposite_of = ""
+description = [
+    "As the name implies, 'talking around' something, usually by supplying a descriptive phrase in place of a name.	Useful as euphemisms, as a method of amplification, or to hint at something without stating it. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/P/periphrasis.htm)",
+    "The use of an unnecessarily large number of words to express an idea. It is sometimes necessary in communication (for example, to work around lexical gaps that might otherwise lead to untranslatability), but it can also be undesirable (when an uncommon or easily misunderstood figure of speech is used). ([Wikipedia])(https://en.wikipedia.org/wiki/Circumlocution)"
+]
+quote = [
+    "...Or lose your heart, or your chaste treasure open / To his unmast'red importunity. --Shakespeare, Hamlet 1.3.31-32"
+]
+example = [
+    "A pomegranate could be described using these techniques as follows: It's a kind of fruit, it's red and it has lots and lots of little seeds in it. (Wikipedia)",
+    "[Firefighters] are the people who you call when your house is on fire. (Wikipedia)",
+    "A [spider] is an insect that catches other insects in its web. (Wikipedia)"
 ]
 
 [trope.substitutions.anthimeria]
 name = "Anthimeria"
 similar_to = ""
 opposite_of = ""
-description = "Substitution of one part of speech for another (such as a noun for a verb)."
-wikipedia = [
+description = [
+    "Substitution of one part of speech for another (such as a noun used as a verb). ([Silva Rhetoricae](rhetoric.byu.edu/Figures/A/anthimeria.htm)",
+    "Using one part of speech as another, such as using a noun as a verb. ([Wikipedia])(https://en.wikipedia.org/wiki/Anthimeria)"
+]
+quote = [
 "I'll unhair thy head. --Shakespeare, Antony and Cleopatra, II, v.",
 "The thunder would not peace at my bidding. --Shakespeare, King Lear, IV, vi.",
 "Me, dictionary-ing heavily, 'Where was the one they were watching?' --Ernest Hemingway, Green Hills of Africa"
 ]
-example = []
-silva_rhetoricae = [
-"I've been Republicaned all I care to be this election year.",
-"Did you see the way those blockers defenced on that last play?",
-"Feel bad? Strike up some music and have a good sing."
+example = [
+"I've been Republicaned all I care to be this election year. (Silva Rhetoricae)",
+"Did you see the way those blockers defenced on that last play? (Silva Rhetoricae)",
+"Feel bad? Strike up some music and have a good sing. (Silva Rhetoricae)"
 ]
 
 [trope.magnitude]
@@ -685,47 +717,53 @@ name = "Magnitude"
 name = "Hyperbole"
 similar_to = ""
 opposite_of = ""
-description = "Use of exaggerated terms for emphasis or effect."
-wikipedia = [
-"He was so angry, I thought he was going to kill somebody.",
-"She had a thousand missed calls.",
-"I was so embarrassed, I wanted to die.",
-"She's as blind as a bat."
+description = [
+    "Rhetorical exaggeration. Hyperbole is often accomplished via comparisons, similes, and metaphors. ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/H/hyperbole.htm)",
+    "The use of exaggeration as a rhetorical device or figure of speech. In rhetoric, it is also sometimes known as auxesis (literally 'growth'). In poetry and oratory, it emphasizes, evokes strong feelings, and creates strong impressions. As a figure of speech, it is usually not meant to be taken literally. ([Wikipedia])(https://en.wikipedia.org/wiki/Hyperbole)"
 ]
-example = []
-silva_rhetoricae = [
-"I've told you a million times not to exaggerate."
+quote = [
+]
+example = [
+"He was so angry, I thought he was going to kill somebody. (Wikipedia)",
+"She had a thousand missed calls. (Wikipedia)",
+"I was so embarrassed, I wanted to die. (Wikipedia)",
+"She's as blind as a bat. (Wikipedia)"],
+"I've told you a million times not to exaggerate. (Silva Rhetoricae)"
 ]
 
 [trope.magnitude.litotes]
 name = "Litotes"
 similar_to = ""
 opposite_of = ""
-description = "Understatement used deliberately."
-wikipedia = [
-"Not bad --> Good",
-"It's not my favourite --> I don't like it",
-"Not too shabby! --> Nice!"
+description = [
+    "Deliberate understatement, especially when expressing a thought by denying its opposite.  ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/L/litotes.htm)",
+    "A figure of speech and form of verbal irony in which understatement is used to emphasize a point by stating a negative to further affirm a positive, often incorporating double negatives for effect. ([Wikipedia])(https://en.wikipedia.org/wiki/Litotes)"
 ]
-example = []
-silva_rhetoricae = [
-"It isn't very serious. I have this tiny little tumor on the brain. --J.D. Salinger, The Catcher in the Rye",
-"Running a marathon in under two hours is no small accomplishment."
+quote = [
+"It isn't very serious. I have this tiny little tumor on the brain. --J.D. Salinger, The Catcher in the Rye"
+]
+example = [
+"Running a marathon in under two hours is no small accomplishment. (Silva Rhetoricae)",
+"Not bad --> Good (Wikipedia)",
+"It's not my favourite --> I don't like it (Wikipedia)",
+"Not too shabby! --> Nice! (Wikipedia)"
 ]
 
 [trope.magnitude.meiosis]
 name = "Meiosis"
 similar_to = ""
 opposite_of = ""
-description = "Reference to something with a name disproportionately lesser than its nature (a kind of litotes)."
-wikipedia = [
-"'(Our) peculiar institution', for slavery and its economic ramifications in the American South.",
-"'The Recent Unpleasantness', used in the 19th century in the southern United States as an idiom to refer to the American Civil War and its aftermath.",
-"'The Pond', for the Atlantic Ocean (across the pond)"
+description = [
+    "Reference to something with a name disproportionately lesser than its nature (a kind of litotes). ([Silva Rhetoricae](http://rhetoric.byu.edu/Figures/M/meiosis.htm)",
+    "a euphemistic figure of speech that intentionally understates something or implies that it is lesser in significance or size than it really is. ([Wikipedia])(https://en.wikipedia.org/wiki/Meiosis_(figure_of_speech))"
 ]
-example = []
-silva_rhetoricae = [
-"Said of an amputated leg: 'It's just a flesh wound' --Monty Python and the Holy Grail"
+quote = [
+    "Said of an amputated leg: 'It's just a flesh wound' --Monty Python and the Holy Grail"
+]
+example = [
+    "'(Our) peculiar institution', for slavery and its economic ramifications in the American South.",
+    "'The Recent Unpleasantness', used in the 19th century in the southern United States as an idiom to refer to the American Civil War and its aftermath.",
+    "'The Pond', for the Atlantic Ocean (across the pond)"
 ]
 
 [trope.inversion]
