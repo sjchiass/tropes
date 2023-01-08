@@ -29,7 +29,7 @@ def family_generator(data):
                 if isDict(family):
                     yield {"members":[x["name"] for x in family.values() if isFlat(x)]} | {"name":family["name"]} | {"genus":genus["name"]}
 
-keys_ref = set(["name", "similar_to", "opposite_of", "description", "wikipedia", "example", "silva_rhetoricae", "genus", "family"])
+keys_ref = set(["name", "similar_to", "opposite_of", "description", "quote", "example", "genus", "family"])
 
 for i in trope_generator(data):
     try:
@@ -51,12 +51,13 @@ for i in trope_generator(data):
             print(f"Error in {i['genus']} --> {i['family']} --> {i['name']}")
             print(f"Missing key: {k}")
             raise e
-    try:
-        assert isinstance(i["wikipedia"], list)
-    except AssertionError as e:
-        print(f"Error in {i['genus']} --> {i['family']} --> {i['name']}")
-        print("wikipedia is not a list")
-        raise e
+    for k in ["description", "quote", "example"]:
+        try:
+            assert isinstance(i[k], list)
+        except AssertionError as e:
+            print(f"Error in {i['genus']} --> {i['family']} --> {i['name']}")
+            print(f"{k} is not a list")
+            raise e
 
 def make_by_name(d):
     for i in trope_generator(d):
@@ -74,15 +75,13 @@ def make_by_description(d):
 
 def make_by_quote(d):
     for i in trope_generator(d):
-        for q in i["wikipedia"]:
-            yield f"{q}<br><br>What is this quote an example of?\t{i['name']}: {i['description']}\n"
-        for q in i["silva_rhetoricae"]:
-            yield f"{q}<br><br>What is this quote an example of?\t{i['name']}: {i['description']}\n"
+        for q in i["quote"]:
+            yield f"{q}<br><br>What is this quote an example of?\t{i['name']}: {'<br>'.join(i['description'])}\n"
 
 def make_by_example(d):
     for i in trope_generator(d):
         if i["example"]:
-            yield f"What {i['genus'].lower()} are these examples of?<br><br>{'<br>'.join([e for e in i['example']])}\t{i['name']}<br><br>{i['description']}\n"
+            yield f"What {i['genus'].lower()} are these examples of?<br><br>{'<br>'.join([e for e in i['example']])}\t{i['name']}<br><br>{'<br>'.join(i['description'])}\n"
 
 def make_by_members(d):
     for i in family_generator(d):
