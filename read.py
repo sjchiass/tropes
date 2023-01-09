@@ -74,7 +74,7 @@ def make_high_level(d):
     for genus in d.values():
         if isDict(genus):
             yield f"What is the definition of {genus['name'].lower()}?\t{''.join([to_md(x) for x in genus['description']])}\n"
-            yield f"What is this describing?<br><br>{''.join([no_html(to_md(x)) for x in genus['description']])}\t{genus['name']}\n"
+            yield f"What is this describing?<br><br>{'<br>'.join([no_html(to_md(x)) for x in genus['description']])}\t{genus['name']}\n"
 
 def make_by_name(d):
     for i in trope_generator(d):
@@ -82,7 +82,7 @@ def make_by_name(d):
 
 def make_by_description(d):
     for i in trope_generator(d):
-        start = f"What {i['genus'].lower()} is this describing?<br><br>{''.join([no_html(to_md(x)) for x in i['description']])}"
+        start = f"What {i['genus'].lower()} is this describing?<br><br>{'<br>'.join([no_html(to_md(x)) for x in i['description']])}"
         end = f"\t{i['name']}\n"
         if i["example"]:
             start += "<br><br>Examples:"
