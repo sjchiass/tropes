@@ -1,5 +1,7 @@
 import tomllib
 import collections
+import markdown
+from bs4 import BeautifulSoup
 
 with open("data.toml", "rb") as f:
     data = tomllib.load(f)
@@ -59,13 +61,28 @@ for i in trope_generator(data):
             print(f"{k} is not a list")
             raise e
 
+# To markdown
+def to_md(x):
+    return markdown.markdown(x)
+
+# Remove HTML, to hide links with answers when asking a question
+def no_html(x):
+    soup = BeautifulSoup(x, features="html.parser")
+    return soup.get_text()
+
+def make_high_level(d):
+    for genus in d.values():
+        if isDict(genus):
+            yield f"What is the definition of {genus['name'].lower()}?\t{''.join([to_md(x) for x in genus['description']])}\n"
+            yield f"What is this describing?<br><br>{''.join([no_html(to_md(x)) for x in genus['description']])}\t{genus['name']}\n"
+
 def make_by_name(d):
     for i in trope_generator(d):
-        yield f"What is the definition of {i['name'].lower()}?\t{i['description']}\n"
+        yield f"What is the definition of {i['name'].lower()}?\t{''.join([to_md(x) for x in i['description']])}\n"
 
 def make_by_description(d):
     for i in trope_generator(d):
-        start = f"What {i['genus'].lower()} is this describing?<br><br>{i['description']}"
+        start = f"What {i['genus'].lower()} is this describing?<br><br>{''.join([no_html(to_md(x)) for x in i['description']])}"
         end = f"\t{i['name']}\n"
         if i["example"]:
             start += "<br><br>Examples:"
@@ -76,12 +93,12 @@ def make_by_description(d):
 def make_by_quote(d):
     for i in trope_generator(d):
         for q in i["quote"]:
-            yield f"{q}<br><br>What is this quote an example of?\t{i['name']}: {'<br>'.join(i['description'])}\n"
+            yield f"{q}<br><br>What is this quote an example of?\t{i['name']}: {''.join([to_md(x) for x in i['description']])}\n"
 
 def make_by_example(d):
     for i in trope_generator(d):
         if i["example"]:
-            yield f"What {i['genus'].lower()} are these examples of?<br><br>{'<br>'.join([e for e in i['example']])}\t{i['name']}<br><br>{'<br>'.join(i['description'])}\n"
+            yield f"What {i['genus'].lower()} are these examples of?<br><br>{'<br>'.join([e for e in i['example']])}\t{i['name']}<br><br>{''.join([to_md(x) for x in i['description']])}\n"
 
 def make_by_members(d):
     for i in family_generator(d):
@@ -92,6 +109,8 @@ def make_by_family(d):
         yield f"What are the members of the {i['genus'].lower()} family named {i['name'].lower()}?\t{', '.join([x.lower() for x in i['members']])}\n"
 
 with open("./test.tsv", "w") as f:
+    for i in make_high_level(data):
+        f.write(i)
     for i in make_by_name(data):
         f.write(i)
     for i in make_by_description(data):
